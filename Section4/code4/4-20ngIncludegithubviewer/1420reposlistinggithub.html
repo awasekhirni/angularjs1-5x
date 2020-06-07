@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Github repo listing example</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.8/angular.js" data-semver="1.4.8"></script>
+    <script src="app2.js"></script>
+  </head>
+
+  <body ng-controller="MainController">
+    <h1>Listing Repositories of a Github User</h1>
+  <h2>{{message}}</h2>
+  <h2>{{error}}</h2>
+    
+    
+   
+    <div>
+
+      <h1>REPO LIST</h1>
+      <div>
+        <!-- error message goes here -->
+        <h4 style="color:red"> {{error}}</h4>
+        <!-- end of error message -->
+      </div>
+            <br/>
+            <form name="searchuser" ng-submit="search(username)">
+              <input type="search" required placeholder="Please enter the username to find " ng-model="username"/>
+              <input type="submit" value="search"/>
+            </form>
+            <hr/>
+            
+            <!-- include the partial/template html using ngInclude -->
+            <div ng-include="'userdetails.html'" ng-show="user"></div>
+    
+  </body>
+
+</html>
+
+  

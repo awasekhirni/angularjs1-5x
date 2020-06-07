@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html data-ng-app="">
+<head>
+<title> Using AngularJS Directives and data binding example, filtering and sorting examples</title>
+</head>
+<script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+<body data-ng-init="customers=[{name:'Syed Awase',city:'Bangalore'},{name:'Syed Ameese',city:'Hyderabad'},{name:'Syed Aziz',city:'Pune'},{name:'Ravindra',city:'Hyderabad'},{name:'Bharat',city:'Vijayawada'},{name:'Thomas',city:'Vijayawada'}]">
+<br/>
+<input type="text" data-ng-model="name"/>
+<br/>
+<ul>
+	<li data-ng-repeat="cust in customers | filter:name " > {{cust.name}} - {{cust.city}} <li>
+</ul>
+<h1>Using AngularJS Directives and data binding example, filtering and sorting examples</h1>
+<br/>
+<h4>orderby city example</h4>
+
+<ul>
+	<li data-ng-repeat="cust in customers | filter:name | orderBy:'city'" > {{cust.name}} - {{cust.city}} <li>
+</ul>
+
+
+<br/>
+<h4>uppercase and lowercase example</h4>
+
+<ul>
+	<li data-ng-repeat="cust in customers | filter:name | orderBy:'city'" > {{cust.name | uppercase}} - {{cust.city |lowercase}} <li>
+</ul>
+
+
+
+
+</body>
+
+</html>

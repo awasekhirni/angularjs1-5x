@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="directivesModule">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular.min.js"></script>
+	<script src="StartsWithController.js"></script>
+	<script src="startsWith.js"></script>
+</head>
+<body>
+
+
+<div ng-controller="StartsWithController" style="width:100%">  
+	<p><b>List of Names</b></p>  
+    <ul>  
+      <li ng-repeat="employee in employeeArray">{{entry.name}}</li>  
+   </ul>
+   <hr/>
+
+   <p><b>Custom Filters Example</b></p>  
+   <p>Search Employee name start with: <input type="text" ng-model="empName"/></p>  
+   <ul>  
+      <li ng-repeat="employee in employeeArray | startsWith:empName ">{{entry.name}}</li>  
+   </ul>  
+</div> 
+	
+</body>
+</html>

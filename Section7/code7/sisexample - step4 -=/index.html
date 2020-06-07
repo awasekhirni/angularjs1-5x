@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="directivesModule">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body ng-controller="CustomersController">
+	<h2>Shared Scope Directive</h2>
+	<shared-scope></shared-scope>
+
+
+
+	<h2>Isolate Scope Directive</h2>
+	<isolate-scope></isolate-scope>
+	
+	
+	
+	<h2>Isolate Scope with string</h2>
+	<isolate-scope-with-string name='{{customer.name}}'></isolate-scope-with-string>
+
+	
+	<h2>Isolate Scope with string</h2>
+	<h4>Isolate Scope with string passing string literal</h4>
+	<isolate-scope-with-string name='customer'></isolate-scope-with-string>
+
+	
+	
+	<h2>Isolate Scope with string</h2>
+	<h4>Isolate Scope with string passing customer object</h4>
+	<isolate-scope-with-string name='{{customer}}'></isolate-scope-with-string>
+
+	
+	<hr/>
+	<h2>Isolate Scope with Object</h2>
+	<h4>Remember there are no handlebars here ie binding expression</h4>
+	<isolate-scope-with-object datasource="customer"></isolate-scope-with-object>
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.1/angular.min.js"></script>
+	<script src="directivesController.js"></script>
+	<script src="sharedScopeDirective.js"></script>
+	<script src="isolateScopeDirective.js"></script>
+	<script src="isolateScopeWithStringDirective.js"></script>
+	<script src="isolateScopeWithObjectDirective.js"></script>
+
+	
+</body>
+</html>

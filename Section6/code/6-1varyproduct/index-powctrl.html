@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="payOrderMgmt">
+<head>
+    <meta charset="UTF-8">
+    <title>Example with Pay Order Controller</title>
+    <!-- global Style sheets -->
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+	
+	<!-- page specific Style sheets -->
+    <link href="css/app.css" rel="stylesheet"/>
+
+    <!-- Main Library Scripts -->
+    <script src="js/angular.js"></script>
+    
+    <!-- Application Script -->
+    <script src="app/app.js"></script>
+
+    <!-- Payorder Controllers -->
+    <script src="app/payorder/PayOrderListCtrl.js"></script>
+
+    
+</head>
+<body>
+    <div class="panel panel-primary">
+    <div class="panel-heading"
+         style="font-size:large">Payment Order List
+    </div>
+    <div class="panel-body">
+    <table ng-controller="PayOrderListCtrl as po" >
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>status</td>
+                <td>type</td>
+                <td>executiondate</td>
+                <td>currency code</td>
+                <td>BenModel</td>
+                <td>Amount</td>
+                <td>Channel</td>
+                
+            </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="payment in po.paymentOrders">
+            <td>{{payment.id}}</td>
+                <td>{{payment.status}}</td>
+                <td>{{payment.type}}</td>
+                <td>{{payment.executionDate}}</td>
+                <td>{{payment.currencyCode}}</td>
+                <td>{{payment.beneficiaryModel}}</td>
+                <td>{{payment.amount}}</td>
+                <td>{{payment.channel}}</td>
+        </tr>   
+        </tbody>
+
+    </table>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+<!doctype html>
+<html data-ng-app="demoApp">
+<head>
+<title> ngFilter and Sorting Using Module with Simple Controller</title>
+</head>
+<script src ="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+
+
+
+<body >
+
+
+<br/>
+
+<h1>ngFilter and Sorting Using Module with Simple Controller</h1>
+
+<div data-ng-controller="simpleController" > 
+		Name:
+		<br/>
+		<input type="text" data-ng-model="name"/>
+		<ul>
+			<li data-ng-repeat="cust in customers | filter:name" > {{cust.name}} - {{cust.city}} <li>
+		</ul>
+
+		<br/>
+		<h4>orderby city example</h4>
+
+		<ul>
+			<li data-ng-repeat="cust in customers | filter:name | orderBy:'city'" > {{cust.name}} - {{cust.city}} <li>
+		</ul>
+
+
+		<br/>
+		<h4>uppercase and lowercase example</h4>
+
+		<ul>
+			<li data-ng-repeat="cust in customers " > {{cust.name | uppercase}} - {{cust.city |lowercase}} <li>
+		</ul>
+
+</div>
+
+<script>
+
+var demoApp = angular.module('demoApp', []);
+
+	function simpleController($scope){
+	
+		$scope.customers = [{name:'Syed Awase', city:'Bangalore'},
+		{name:'Syed Ameese', city:'Hyderabad'},
+		{name:'Syed Aziz', city:'Pune'},
+		{name:'Ravindra', city:'Hyderabad'},
+		{name:'Bharat', city:'Vijayawada'},
+		{name:'Thomas', city:'Vijayawada'}
+		];
+	}
+	
+	demoApp.controller('simpleController', simpleController);
+
+</script>
+</body>
+
+
+</html>

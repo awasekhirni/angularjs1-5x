@@ -1,0 +1,14 @@
+/* Styles go here */
+
+#car-hire-results { float: left; width: 70%; }
+article.result { float: left; width: 94%; border: 1px solid #ddd; margin-bottom: 1em; border-radius: 5px; padding-bottom: 1em; }
+article.result header { background: #ddd; padding: 0.1em 2%; margin-bottom: 0.5em; }
+article.result header * { margin: 0.5em 0; font-size: 1.2em; }
+article.result .car-type { margin-left: 5%; float: left; }
+article.result .company { float: right; margin-right: 5%; }
+article.result .result-features { width: 33%; margin-left: 5%; float: left; padding-left: 20px; margin-top: 0.5em; }
+article.result .result-features li { font-size: 0.8em; }
+
+#filters { float: right; width: 28%; border-radius: 5px; border: 1px solid #ddd; }
+#filters h2 { background: #ddd; padding: 0.1em 2%; margin-bottom: 0.5em; border-top-left-radius: 5px; border-top-right-radius: 5px; margin-top: 0; font-size: 1.2em; padding: 0.5em 6%; }
+#filters fieldset { margin: 5%; }

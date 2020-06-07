@@ -1,0 +1,28 @@
+[
+{
+"productId":1 ,
+"productName":"Leaf Rake" ,
+"productCode":"LR-00011" ,
+"releaseDate":"March 19, 2002" ,
+"description": "Leaf raker with 48 inch handle" ,
+"cost": 540.00 ,
+"price":920.00 ,
+"category":"garden" ,
+"tags":["leaf","garden","tools"] ,
+"imageUrl":"https://openclipart.org/image/300px/svg_to_png/26215/Leaf-Rake.png" ,
+
+},
+{
+"productId":5 ,
+"productName":"Hammer" ,
+"productCode":"HM-0918311" ,
+"releaseDate":"March 21, 2008" ,
+"description": "curved claw steel hammer" ,
+"cost": 740.00 ,
+"price":1120.00 ,
+"category":"toolbox" ,
+"tags":["Foundry","machine","tools"] ,
+"imageUrl":"https://openclipart.org/image/300px/svg_to_png/73/rejon-Hammer.png" ,
+
+}
+]

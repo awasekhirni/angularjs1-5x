@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>Example with Ng-init</title>
+	<!-- Style sheets -->
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/app.css" rel="stylesheet"/>
+
+    <!-- Library Scripts -->
+    <script src="js/angular.js"></script>
+
+    
+
+    
+</head>
+<body>
+	<div class="panel panel-primary">
+    <div class="panel-heading"
+         style="font-size:large">Payment Order List
+    </div>
+	<div class="panel-body">
+	<table ng-init='paymentOrders = [{
+    "amount": "555",
+    "beneficiaryModel": "HR99",
+    "channel": "MOBILE_BANK",
+    "currencyCode": "USD",
+    "executionDate": "2015-11-02T15:56:37.000+0300",
+    "id": "136",
+    "itemNumber": 10,
+    "status": "ACCEPTED",
+    "type": "OWN_ACCOUNTS"
+}, {
+    "amount": "121.8",
+    "beneficiaryModel": "HR01",
+    "channel": "MOBILE_BANK",
+    "currencyCode": "HRK",
+    "executionDate": "2015-10-27T00:00:00.000+0300",
+    "id": "80",
+    "itemNumber": 11,
+    "status": "ACCEPTED",
+    "type": "DOMESTIC"
+}, {
+    "amount": "121.8",
+    "beneficiaryModel": "HR01",
+    "channel": "MOBILE_BANK",
+    "currencyCode": "HRK",
+    "executionDate": "2015-10-27T00:00:00.000+0300",
+    "id": "79",
+    "itemNumber": 12,
+    "status": "ACCEPTED",
+    "type": "DOMESTIC"
+}, {
+    "amount": "121.8",
+    "beneficiaryModel": "HR01",
+    "channel": "MOBILE_BANK",
+    "currencyCode": "HRK",
+    "executionDate": "2015-10-27T00:00:00.000+0300",
+    "id": "78",
+    "itemNumber": 13,
+    "status": "ACCEPTED",
+    "type": "DOMESTIC"
+}]' >
+		<thead>
+			<tr>
+				<td>id</td>
+				<td>status</td>
+				<td>type</td>
+				<td>executiondate</td>
+				<td>currency code</td>
+				<td>BenModel</td>
+				<td>Amount</td>
+				<td>Channel</td>
+				
+			</tr>
+		</thead>
+		<tbody>
+		<tr ng-repeat="payment in paymentOrders">
+			<td>{{payment.id}}</td>
+				<td>{{payment.status}}</td>
+				<td>{{payment.type}}</td>
+				<td>{{payment.executionDate}}</td>
+				<td>{{payment.currencyCode}}</td>
+				<td>{{payment.beneficiaryModel}}</td>
+				<td>{{payment.amount}}</td>
+				<td>{{payment.channel}}</td>
+		</tr>	
+		</tbody>
+
+	</table>
+</div>
+	
+</body>
+</html>

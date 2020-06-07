@@ -1,0 +1,6342 @@
+[
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Sap",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "rarity": "FREE",
+        "artist": "Scott Altmann",
+        "id": "EX1_581",
+        "playerClass": "ROGUE",
+        "text": "Return an enemy minion to its owner's hand."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 12,
+        "set": "EXPERT1",
+        "attack": 10,
+        "rarity": "EPIC",
+        "health": 10,
+        "artist": "Svetlin Velinov",
+        "id": "EX1_586",
+        "name": "Sea Giant",
+        "text": "Costs (1) less for each other minion on the battlefield."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "CORE",
+        "name": "Charge",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "FREE",
+        "artist": "Alex Horley Orlandelli",
+        "id": "CS2_103",
+        "playerClass": "WARRIOR",
+        "text": "Give a friendly minion <b>Charge</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_398",
+        "playerClass": "WARRIOR",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Samwise Didier",
+        "flavor": "50% off fist weapons, limited time only! We accept guild funds for repairs!",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Arathi Weaponsmith",
+        "text": "<b>Battlecry:</b> Equip a 2/2 weapon."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "CS2_029",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Ralph Horsley",
+        "flavor": "This spell is useful for burning things. If you're looking for spells that toast things, or just warm them a little, you're in the wrong place.",
+        "name": "Fireball",
+        "text": "Deal $6 damage."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_309",
+        "playerClass": "WARLOCK",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Tyler Walpole",
+        "flavor": "You probably should avoid siphoning your own soul. You might create some kind of weird infinite loop.",
+        "name": "Siphon Soul",
+        "text": "Destroy a minion. Restore 3 Health to your hero."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "CS2_161",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 7,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "Ralph Horsley",
+        "mechanics": [
+            "STEALTH"
+        ],
+        "name": "Ravenholdt Assassin",
+        "text": "<b>Stealth</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "id": "DS1_178",
+        "playerClass": "HUNTER",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Lars Grant-West",
+        "flavor": "Tundra Rhinos are often mistaken with other types of Rhinos. Or am I mistaken?",
+        "text": "Your Beasts have <b>Charge</b>.",
+        "name": "Tundra Rhino",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "EXPERT1",
+        "name": "Holy Wrath",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "RARE",
+        "artist": "Justin Sweet",
+        "id": "EX1_365",
+        "playerClass": "PALADIN",
+        "text": "Draw a card and deal damage equal to its cost."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Mental Collapse",
+        "rarity": "COMMON",
+        "flavor": "\"I DON'T KNOW WHAT WE'RE YELLING ABOUT!!!\"",
+        "artist": "Lucio Parrillo",
+        "id": "EX1_335",
+        "playerClass": "PRIEST",
+        "text": "Deal 1 damage to the enemy hero for each card in his hand."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_023",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Phroilan Gardner",
+        "mechanics": [
+            "DIVINE_SHIELD"
+        ],
+        "name": "Silvermoon Guardian",
+        "text": "<b>Divine Shield</b>"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Rampage",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_DAMAGED_TARGET": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Jonboy Meyers",
+        "id": "CS2_104",
+        "playerClass": "WARRIOR",
+        "text": "Give a damaged minion +3/+3."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_173",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Jakub Kasper",
+        "text": "<b>Charge</b>",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "name": "Bluegill Warrior",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_366",
+        "playerClass": "PALADIN",
+        "type": "WEAPON",
+        "durability": 5,
+        "attack": 1,
+        "rarity": "EPIC",
+        "artist": "Efrem Palacios",
+        "name": "Sword of Justice",
+        "text": "Whenever you play a minion, give it +1/+1 and this loses 1 Durability."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_006",
+        "type": "MINION",
+        "attack": 0,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Sean Oâ€™Daniels",
+        "flavor": "WARNING. WARNING. WARNING.",
+        "name": "Alarm-o-Bot",
+        "text": "At the start of your turn, swap this minion with a random one in your hand."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 7,
+        "set": "CORE",
+        "name": "Flamestrike",
+        "rarity": "COMMON",
+        "flavor": "Early wizards were shocked to find that this spell works just as well underwater.",
+        "artist": "Romain De Santi",
+        "id": "CS2_032",
+        "playerClass": "MAGE",
+        "text": "Deal $4 damage to all enemy minions."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 8,
+        "set": "EXPERT1",
+        "attack": 8,
+        "rarity": "LEGENDARY",
+        "health": 8,
+        "artist": "Greg Staples",
+        "id": "EX1_298",
+        "name": "Ragnaros the Firelord",
+        "text": "Can't Attack. At the end of your turn, deal 8 damage to a random enemy."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "EXPERT1",
+        "name": "Sense Demons",
+        "rarity": "COMMON",
+        "artist": "Raven Mimura",
+        "id": "EX1_317",
+        "playerClass": "WARLOCK",
+        "text": "Put 2 random Demons from your deck into your hand."
+    },
+    {
+        "collectible": true,
+        "cost": 9,
+        "set": "EXPERT1",
+        "entourage": [
+            "DREAM_01",
+            "DREAM_02",
+            "DREAM_03",
+            "DREAM_04",
+            "DREAM_05"
+        ],
+        "id": "EX1_572",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "LEGENDARY",
+        "health": 12,
+        "artist": "Gabor Szikszai",
+        "text": "At the end of your turn, draw a Dream Card.",
+        "name": "Ysera",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Return a minion to hand.",
+        "cost": 6,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_FOR_COMBO": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "NEW1_005",
+        "playerClass": "ROGUE",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "EPIC",
+        "health": 3,
+        "artist": "Dave Allsop",
+        "flavor": "He just wants people to see his vacation photos.",
+        "mechanics": [
+            "COMBO"
+        ],
+        "name": "Kidnapper",
+        "text": "<b>Combo:</b> Return a minion to its owner's hand."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "NEW1_029",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "LEGENDARY",
+        "health": 4,
+        "artist": "Jim Nelson",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Millhouse Manastorm",
+        "text": "<b>Battlecry:</b> Enemy spells cost (0) next turn."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_NUM_MINION_SLOTS": 1
+        },
+        "id": "EX1_345",
+        "playerClass": "PRIEST",
+        "type": "SPELL",
+        "rarity": "EPIC",
+        "artist": "Zoltan & Gabor",
+        "flavor": "Sometimes it feels like this is all a game.",
+        "name": "Mindgames",
+        "text": "Put a copy of a random minion from your opponent's deck into the battlefield."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "id": "EX1_062",
+        "type": "MINION",
+        "textInPlay": "Marglahg",
+        "attack": 2,
+        "rarity": "LEGENDARY",
+        "health": 4,
+        "flavor": "He's a legend among murlocs. \"Mrghllghghllghg!\", they say.",
+        "text": "<b>Charge</b>. Has +1 Attack for each other Murloc on the battlefield.",
+        "name": "Old Murk-Eye",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 1,
+        "set": "EXPERT1",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Erik Ko",
+        "id": "EX1_001",
+        "name": "Lightwarden",
+        "text": "Whenever a character is healed, gain +1 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "id": "CS2_065",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "FREE",
+        "health": 3,
+        "artist": "Robb Shoberg",
+        "text": "<b>Taunt</b>",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Voidwalker",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "EX1_238",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Mike \"Daarken\" Lim",
+        "mechanics": [
+            "OVERLOAD"
+        ],
+        "name": "Lightning Bolt",
+        "text": "Deal $3 damage. <b>Overload:</b> (1)"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 2,
+        "set": "EXPERT1",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Luca Zontini",
+        "id": "EX1_616",
+        "name": "Mana Wraith",
+        "text": "ALL minions cost (1) more."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_MINIMUM_ENEMY_MINIONS": 1
+        },
+        "id": "EX1_617",
+        "playerClass": "HUNTER",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Steve Prescott",
+        "flavor": "Accuracy is not a highly valued trait among the mok'nathal.  Deadliness is near the top, though.",
+        "name": "Deadly Shot",
+        "text": "Destroy a random enemy minion."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_016",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Glenn Rane",
+        "mechanics": [
+            "DEATHRATTLE"
+        ],
+        "name": "Sylvanas Windrunner",
+        "text": "<b>Deathrattle:</b> Take control of a random enemy minion."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_087",
+        "playerClass": "PALADIN",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Zoltan Boros",
+        "flavor": "\"As in, you MIGHT want to get out of my way.\" - Toad Mackle, recently buffed.",
+        "name": "Blessing of Might",
+        "text": "Give a minion +3 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_WEAPON_EQUIPPED": 0
+        },
+        "id": "CS2_233",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Hideaki Takamura",
+        "flavor": "\"Look, it's not just about waving daggers around really fast.  It's a lot more complicated than that.\" - Shan, Rogue Trainer",
+        "name": "Blade Flurry",
+        "text": "Destroy your weapon and deal its damage to all enemy minions."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "EXPERT1",
+        "name": "Penance",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Zoltan Boros",
+        "id": "EX1_623",
+        "playerClass": "PRIEST",
+        "text": "Deal $3 damage. Restore 3 Health to your hero."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Give +1/+1.",
+        "cost": 3,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_019",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Doug Alexander",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Shattered Sun Cleric",
+        "text": "<b>Battlecry:</b> Give a friendly minion +1/+1."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_316",
+        "playerClass": "WARLOCK",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Tom Baxa",
+        "flavor": "We cannot even describe how horrible the death is.   Its CRAZY bad!   Maybe worse than that.   Just don't do it.",
+        "name": "Power Overwhelming",
+        "text": "Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Kill Command",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Gabe from Penny Arcade",
+        "id": "EX1_539",
+        "playerClass": "HUNTER",
+        "text": "Deal $3 damage.  If you have a Beast, deal $5 damage instead."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_012",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "LEGENDARY",
+        "health": 1,
+        "artist": "Alex Horley Orlandelli",
+        "mechanics": [
+            "DEATHRATTLE",
+            "SPELLPOWER"
+        ],
+        "name": "Bloodmage Thalnos",
+        "text": "<b>Spell Power +1</b>. <b>Deathrattle:</b> Draw a card."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Restore 3 Health.",
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "CS2_117",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Alex Horley Orlandelli",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Earthen Ring Farseer",
+        "text": "<b>Battlecry:</b> Restore 3 Health."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "EXPERT1",
+        "name": "Explosive Shot",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "RARE",
+        "artist": "Tom Baxa",
+        "id": "EX1_537",
+        "playerClass": "HUNTER",
+        "text": "Deal $6 damage to a minion and $1 damage to adjacent ones."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "NEW1_023",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Samwise Didier",
+        "text": "Can't be targeted by Spells or Hero Powers.",
+        "name": "Faerie Dragon",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_301",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "John 'JP' Polidora",
+        "text": "<b>Taunt</b>. <b>Battlecry:</b> Destroy one of your Mana Crystals.",
+        "mechanics": [
+            "BATTLECRY",
+            "TAUNT"
+        ],
+        "name": "Felguard",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Bestial Wrath",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_TARGET_WITH_RACE": 20
+        },
+        "rarity": "EPIC",
+        "artist": "Alex Horley Orlandelli ",
+        "id": "EX1_549",
+        "playerClass": "HUNTER",
+        "text": "Give a Beast +2 Attack and <b>Immune</b> this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_044",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "textInPlay": "Questing",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Karl Kopinski",
+        "name": "Questing Adventurer",
+        "text": "Whenever you play a card, gain +1/+1."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "EXPERT1",
+        "name": "Shadowform",
+        "rarity": "EPIC",
+        "artist": "Alex Horley Orlandelli",
+        "id": "EX1_625",
+        "playerClass": "PRIEST",
+        "text": "Your Hero Power becomes 'Deal 2 damage'. If already in Shadowform: 3 damage."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "id": "DS1_175",
+        "playerClass": "HUNTER",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "FREE",
+        "health": 1,
+        "artist": "Malcolm Davis",
+        "flavor": "He doesn't show it, but he enjoys a cuddle now and again.",
+        "text": "Your other Beasts have +1 Attack.",
+        "name": "Timber Wolf",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "id": "EX1_582",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Jim Nelson",
+        "mechanics": [
+            "SPELLPOWER"
+        ],
+        "name": "Dalaran Mage",
+        "text": "<b>Spell Power +1</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "id": "EX1_032",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "Andrea Uderzo",
+        "mechanics": [
+            "DIVINE_SHIELD",
+            "TAUNT"
+        ],
+        "name": "Sunwalker",
+        "text": "<b>Taunt</b>. <b>Divine Shield</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "id": "CS2_187",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Matt Cavotta",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Booty Bay Bodyguard",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 5,
+        "set": "CORE",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 7,
+        "artist": "Alex Horley Orlandelli",
+        "id": "EX1_399",
+        "name": "Gurubashi Berserker",
+        "text": "Whenever this minion takes damage, gain +3 Attack."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Unleash the Hounds",
+        "rarity": "COMMON",
+        "flavor": "You must read the name of this card out loud each time you play it.",
+        "artist": "Velvet Engine",
+        "id": "EX1_538",
+        "playerClass": "HUNTER",
+        "text": "Give your Beasts +1 Attack and <b>Charge</b>."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Deal 1 damage.  Combo: 2 instead.",
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "EX1_133",
+        "playerClass": "ROGUE",
+        "type": "WEAPON",
+        "durability": 2,
+        "attack": 2,
+        "rarity": "RARE",
+        "artist": "Daren Bader",
+        "mechanics": [
+            "BATTLECRY",
+            "COMBO"
+        ],
+        "name": "Perdition's Blade",
+        "text": "<b>Battlecry:</b> Deal 1 damage. <b>Combo:</b> Deal 2 instead."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "CORE",
+        "id": "CS2_064",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Zoltan & Gabor",
+        "text": "<b>Battlecry:</b> Deal 1 damage to ALL other characters.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Dread Infernal",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "EX1_506",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Dan Scott",
+        "text": "<b>Battlecry:</b> Summon a 1/1 Murloc Scout.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Murloc Tidehunter",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_073",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Alex Horley Orlandelli",
+        "mechanics": [
+            "COMBO"
+        ],
+        "name": "Cold Blood",
+        "text": "Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_020",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Gonzalo Ordonez",
+        "mechanics": [
+            "DIVINE_SHIELD"
+        ],
+        "name": "Scarlet Crusader",
+        "text": "<b>Divine Shield</b>"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Cleave",
+        "playRequirements": {
+            "REQ_MINIMUM_ENEMY_MINIONS": 2
+        },
+        "rarity": "COMMON",
+        "artist": "Phroilan Gardner",
+        "id": "CS2_114",
+        "playerClass": "WARRIOR",
+        "text": "Deal $2 damage to two random enemy minions."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Commanding Shout",
+        "rarity": "RARE",
+        "artist": "Wayne Reynolds",
+        "id": "NEW1_036",
+        "playerClass": "WARRIOR",
+        "text": "Your minions can't be reduced below 1 Health this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "CS2_059",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "textInPlay": "Blood Pact",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Bernie Kang",
+        "text": "<b>Stealth</b>. Your other minions have +1 Health.",
+        "mechanics": [
+            "STEALTH"
+        ],
+        "name": "Blood Imp",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_029",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Glenn Rane",
+        "mechanics": [
+            "DEATHRATTLE"
+        ],
+        "name": "Leper Gnome",
+        "text": "<b>Deathrattle:</b> Deal 2 damage to the enemy hero."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "NEW1_025",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Randy Gallegos",
+        "text": "<b>Battlecry:</b> Remove 1 Durability from your opponent's weapon.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Bloodsail Corsair",
+        "race": "PIRATE"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_MINIMUM_ENEMY_MINIONS": 2
+        },
+        "id": "EX1_251",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Ralph Horsley",
+        "mechanics": [
+            "OVERLOAD"
+        ],
+        "name": "Forked Lightning",
+        "text": "Deal $2 damage to 2 random enemy minions. <b>Overload:</b> (2)"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_319",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Alex Horley Orlandelli",
+        "text": "<b>Stealth</b>. <b>Battlecry:</b> Deal 2 damage to your hero.",
+        "mechanics": [
+            "BATTLECRY",
+            "STEALTH"
+        ],
+        "name": "Flame Imp",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Repentance",
+        "rarity": "COMMON",
+        "artist": "Gonzalo Ordonez",
+        "id": "EX1_379",
+        "mechanics": [
+            "SECRET"
+        ],
+        "playerClass": "PALADIN",
+        "text": "<b>Secret:</b> When your opponent plays a minion, reduce its Health to 1."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Restore 2 Health.",
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "EX1_011",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "FREE",
+        "health": 1,
+        "artist": "Karl Richardson",
+        "flavor": "For a while, this card was named \"Voodoo Doctor, mon\".",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Voodoo Doctor",
+        "text": "<b>Battlecry:</b> Restore 2 Health."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_405",
+        "type": "MINION",
+        "attack": 0,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Carl Critchlow",
+        "mechanics": [
+            "ENRAGED",
+            "TAUNT"
+        ],
+        "name": "Shieldbearer",
+        "text": "<b>Taunt</b>. <b>Enrage:</b> +1 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_043",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 1,
+        "artist": "Jaemin Kim",
+        "text": "<b>Battlecry:</b> Gain +1/+1 for each card in your hand.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Twilight Drake",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 2,
+        "set": "EXPERT1",
+        "attack": 0,
+        "rarity": "EPIC",
+        "health": 7,
+        "artist": "Alex Horley Orlandelli",
+        "id": "NEW1_021",
+        "name": "Doomsayer",
+        "text": "At the start of your turn, destroy ALL minions."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "CORE",
+        "name": "Consecration",
+        "rarity": "COMMON",
+        "artist": "Vance Kovacs",
+        "id": "CS2_093",
+        "playerClass": "PALADIN",
+        "text": "Deal $2 damage to all enemies."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Humility",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Daren Bader",
+        "id": "EX1_360",
+        "playerClass": "PALADIN",
+        "text": "Change a minion's Attack to 1."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Fade",
+        "rarity": "COMMON",
+        "artist": "Ittoku Seta",
+        "id": "EX1_622",
+        "playerClass": "PRIEST",
+        "text": "Give your minions <b>Taunt</b>. Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_310",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "RARE",
+        "health": 7,
+        "artist": "Lucas Graciano",
+        "text": "<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.",
+        "mechanics": [
+            "BATTLECRY",
+            "CHARGE"
+        ],
+        "name": "Doomguard",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_393",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Brian 'Chippy' Dugan",
+        "flavor": "If an Amani berserker asks \"Joo lookin' at me?!\", the correct response is \"Nah, mon\".",
+        "mechanics": [
+            "ENRAGED"
+        ],
+        "name": "Amani Berserker",
+        "text": "<b>Enrage:</b> +3 Attack"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_412",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Dany Orizio",
+        "mechanics": [
+            "ENRAGED"
+        ],
+        "name": "Raging Worgen",
+        "text": "<b>Enrage:</b> <b>Windfury</b> and +1 Attack"
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Destroy a minion with an Attack of 7 or more.",
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_MIN_ATTACK": 7,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_005",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "EPIC",
+        "health": 2,
+        "artist": "Chris Seaman",
+        "flavor": "Mere devilsaurs no longer excite him.  Soon he'll be trying to catch Onyxia with only a dull Wraith Scythe.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Big Game Hunter",
+        "text": "<b>Battlecry:</b> Destroy a minion with an Attack of 7 or more."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_170",
+        "type": "MINION",
+        "textInPlay": "Fanged",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Lars Grant-West",
+        "text": "Destroy any minion damaged by this minion.",
+        "name": "Emperor Cobra",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 8,
+        "set": "CORE",
+        "name": "Mind Control",
+        "playRequirements": {
+            "REQ_NUM_MINION_SLOTS": 1,
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Sean Oâ€™Daniels",
+        "id": "CS1_113",
+        "playerClass": "PRIEST",
+        "text": "Take control of an enemy minion."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_055",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "textInPlay": "Addicted",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Hideaki Takamura",
+        "flavor": "Sheâ€™s trying to kick the habit, but still takes some mana whenever she has a stressful day.",
+        "name": "Mana Addict",
+        "text": "Whenever you cast a spell, gain +3 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_WITH_RACE": 14,
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "NEW1_017",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "EPIC",
+        "health": 2,
+        "artist": "Jaemin Kim",
+        "text": "<b>Battlecry:</b> Destroy a Murloc and gain +2/+2.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Hungry Crab",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "EXPERT1",
+        "name": "Soul of the Forest",
+        "rarity": "COMMON",
+        "flavor": "There is bite behind their bark!",
+        "artist": "Markus Erdt",
+        "id": "EX1_158",
+        "playerClass": "DRUID",
+        "text": "Give your minions \"<b>Deathrattle:</b> Summon a 2/2 Treant.\""
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Wild Growth",
+        "rarity": "FREE",
+        "flavor": "This spell has a chance of going horribly wrong and creating hundreds of full mana crystals.  It sounds good, but history tells us otherwise.",
+        "artist": "James Ryman",
+        "id": "CS2_013",
+        "playerClass": "DRUID",
+        "text": "Gain an empty Mana Crystal."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Hand of Protection",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "FREE",
+        "artist": "Clint Langley",
+        "id": "EX1_371",
+        "playerClass": "PALADIN",
+        "text": "Give a minion <b>Divine Shield</b>."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 2,
+        "set": "CORE",
+        "attack": 2,
+        "rarity": "FREE",
+        "health": 3,
+        "artist": "Daren Bader",
+        "id": "CS2_120",
+        "name": "River Crocolisk",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "CORE",
+        "name": "Hunter's Mark",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Jimmy Lo",
+        "id": "CS2_084",
+        "playerClass": "HUNTER",
+        "text": "Change a minion's Health to 1 this turn."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Equality",
+        "rarity": "RARE",
+        "artist": "Michal Ivan",
+        "id": "EX1_619",
+        "playerClass": "PALADIN",
+        "text": "Change the Health of ALL minions to 1."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Greater Heal",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "RARE",
+        "artist": "Karl Richardson",
+        "id": "EX1_624",
+        "playerClass": "PRIEST",
+        "text": "Restore 2 Health to a character for each card in your opponent's hand."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_142",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Gabor Szikszai",
+        "mechanics": [
+            "SPELLPOWER"
+        ],
+        "name": "Kobold Geomancer",
+        "text": "<b>Spell Power +1</b>"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Mind Blast",
+        "rarity": "FREE",
+        "flavor": "This spell blasts you directly in the MIND.",
+        "artist": "Dave Allsop",
+        "id": "DS1_233",
+        "playerClass": "PRIEST",
+        "text": "Deal $5 damage to the enemy hero."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_556",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Brian Despain",
+        "mechanics": [
+            "DEATHRATTLE"
+        ],
+        "name": "Harvest Golem",
+        "text": "<b>Deathrattle:</b> Summon a 2/1 Damaged Golem."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_010",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Raymond Swanland",
+        "mechanics": [
+            "STEALTH"
+        ],
+        "name": "Worgen Infiltrator",
+        "text": "<b>Stealth</b>"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "EXPERT1",
+        "name": "Bite",
+        "rarity": "RARE",
+        "flavor": "Chew your food!",
+        "artist": "Tom Baxa",
+        "id": "EX1_570",
+        "playerClass": "DRUID",
+        "text": "Give your hero +6 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Give <b>Windfury</b>.",
+        "cost": 4,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_587",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Vance Kovacs",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Windspeaker",
+        "text": "<b>Battlecry:</b> Give a friendly minion <b>Windfury</b>."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "EXPERT1",
+        "name": "Lightning Storm",
+        "rarity": "RARE",
+        "artist": "Christopher Moeller",
+        "id": "EX1_259",
+        "mechanics": [
+            "OVERLOAD"
+        ],
+        "playerClass": "SHAMAN",
+        "text": "Deal $2-$3 damage to all enemy minions. <b>Overload:</b> (2)"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "CS2_181",
+        "faction": "HORDE",
+        "type": "MINION",
+        "textInPlay": "Weakened",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 7,
+        "artist": "Samwise Didier",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Injured Blademaster",
+        "text": "<b>Battlecry:</b> Deal 4 damage to HIMSELF."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_165",
+        "playerClass": "DRUID",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "James Brady",
+        "flavor": "Druids of the Claw can shapeshift into Cat or Bear Form.  You'd think they'd also be able morph into Wolf or Sloth Form, but apparently not.",
+        "name": "Druid of the Claw",
+        "text": "<b>Choose One -</b> <b>Charge</b>; or +3 Health and <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Arcane Intellect",
+        "rarity": "FREE",
+        "flavor": "Playing this card makes you SMARTER.  And let's face it: we could all stand to be a little smarter.",
+        "artist": "Dave Berggren",
+        "id": "CS2_023",
+        "playerClass": "MAGE",
+        "text": "Draw 2 cards."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Holy Light",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "FREE",
+        "artist": "Zoltan & Gabor",
+        "id": "CS2_089",
+        "playerClass": "PALADIN",
+        "text": "Restore 6 Health."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_TARGET_MAX_ATTACK": 3
+        },
+        "id": "CS2_234",
+        "playerClass": "PRIEST",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Raymond Swanland",
+        "flavor": "It's important to note that the amount of pain isn't specified.  It's really not clear how afraid you should be.",
+        "name": "Shadow Word: Pain",
+        "text": "Destroy a minion with 3 or less Attack."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Set Health to 15.",
+        "cost": 9,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_HERO_TARGET": 0
+        },
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "id": "EX1_561",
+        "type": "MINION",
+        "attack": 8,
+        "rarity": "LEGENDARY",
+        "health": 8,
+        "artist": "Raymond Swanland",
+        "flavor": "Alexstrasza was enslaved by the orc Nekros Skullcrusher just before the Second War.  When she was freed, she swallowed him whole. Yum!",
+        "text": "<b>Battlecry:</b> Set a hero's remaining Health to 15.",
+        "name": "Alexstrasza",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "id": "CS2_171",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "FREE",
+        "health": 1,
+        "artist": "Howard Lyon",
+        "text": "<b>Charge</b>",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "name": "Stonetusk Boar",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "id": "CS2_124",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "FREE",
+        "health": 1,
+        "artist": "Dany Orizio",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "name": "Wolfrider",
+        "text": "<b>Charge</b>"
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Return a minion to your hand.",
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "EX1_049",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Wei Wang",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Youthful Brewmaster",
+        "text": "<b>Battlecry:</b> Return a friendly minion from the battlefield to your hand."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "<b>Silence</b> a minion.",
+        "cost": 4,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_048",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Matt Cavotta",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Spellbreaker",
+        "text": "<b>Battlecry:</b> <b>Silence</b> a minion."
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Malfurion Stormrage",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_06",
+        "playerClass": "DRUID"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_287",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Jason Chan",
+        "flavor": "What's the difference between a mage playing with Counterspell and a mage who isn't?  The mage who isn't is getting Pyroblasted in the face.",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Counterspell",
+        "text": "<b>Secret:</b> When an opponent casts a spell, <b>Counter</b> it."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_341",
+        "playerClass": "PRIEST",
+        "type": "MINION",
+        "textInPlay": "Healing",
+        "attack": 0,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "Darrell Riche",
+        "flavor": "It isn't clear if people ignore the Lightwell, or if it is just invisible.",
+        "name": "Lightwell",
+        "text": "At the start of your turn, restore 3 Health to a damaged friendly character."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "CORE",
+        "id": "CS2_162",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 6,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "E.M. Gist",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Lord of the Arena",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "tt_010",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "EPIC",
+        "artist": "Gonzalo Ordonez",
+        "flavor": "While it's fun to intercept enemy lightning bolts, a spellbender much prefers to intercept opposing Marks of the Wild.  It just feels meaner.  And blood elves... well, they're a little mean.",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Spellbender",
+        "text": "<b>Secret:</b> When a minion is hit by an enemy spell, summon a 1/1 and hit it instead."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Redemption",
+        "rarity": "COMMON",
+        "artist": "Ittoku Seta",
+        "id": "EX1_136",
+        "mechanics": [
+            "SECRET"
+        ],
+        "playerClass": "PALADIN",
+        "text": "<b>Secret:</b> When one of your minions dies, return it to life with 1 Health."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Eye for an Eye",
+        "rarity": "COMMON",
+        "artist": "James Ryman",
+        "id": "EX1_132",
+        "mechanics": [
+            "SECRET"
+        ],
+        "playerClass": "PALADIN",
+        "text": "<b>Secret:</b> When your hero takes damage, deal that much damage to the enemy hero."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_289",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Alex Garner",
+        "flavor": "Sure, you're well armored... but now you're quite cold.  And who has time for a cozy fire in the thick of battle?",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Ice Barrier",
+        "text": "<b>Secret:</b> As soon as your hero is attacked, gain 8 Armor."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Rockbiter Weapon",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "FREE",
+        "artist": "Alex Horley Orlandelli",
+        "id": "CS2_045",
+        "playerClass": "SHAMAN",
+        "text": "Give a friendly character +3 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "id": "CS2_037",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Alex Horley Orlandelli",
+        "mechanics": [
+            "FREEZE"
+        ],
+        "name": "Frost Shock",
+        "text": "Deal $1 damage to an enemy character and <b>Freeze</b> it."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_594",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Raymond Swanland",
+        "flavor": "Was the Cataclysm a result of Deathwing losing a game when his opponent played this card?  We may never know.",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Vaporize",
+        "text": "<b>Secret:</b> When your opponent plays a minion, destroy it."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "EXPERT1",
+        "name": "Nourish",
+        "rarity": "RARE",
+        "flavor": "Druids take nourishment from many things: the power of nature, the songbird's chirp, a chocolate cake.",
+        "artist": "Terese Nielsen",
+        "id": "EX1_164",
+        "playerClass": "DRUID",
+        "text": "<b>Choose One</b> - Gain 2 Mana Crystals; or Draw 3 cards."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "NEW1_026",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "James Ryman",
+        "flavor": "If you don't listen carefully, you run the risk of being turned into a pig.  And then glared at.",
+        "name": "Violet Teacher",
+        "text": "Whenever you cast a spell, summon a 1/1 Violet Apprentice."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "CORE",
+        "name": "Innervate",
+        "rarity": "FREE",
+        "flavor": "Some druids still have flashbacks from strangers yelling \"Innervate me!!\" at them.",
+        "artist": "Doug Alexander",
+        "id": "EX1_169",
+        "playerClass": "DRUID",
+        "text": "Gain 2 Mana Crystals this turn only."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_121",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Richie Marella",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Frostwolf Grunt",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "id": "EX1_084",
+        "playerClass": "WARRIOR",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "FREE",
+        "health": 3,
+        "artist": "Wei Wang",
+        "name": "Warsong Commander",
+        "text": "Your other minions have <b>Charge</b>."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "EXPERT1",
+        "name": "Force of Nature",
+        "rarity": "EPIC",
+        "flavor": "\"I think I'll just nap under these trees. Wait... AAAAAHHH!\" - Blinkfizz, the Unfortunate Gnome",
+        "artist": "Trevor Jacobs",
+        "id": "EX1_571",
+        "playerClass": "DRUID",
+        "text": "Summon three 2/2 Treants with <b>Charge</b> that die at the end of the turn."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "id": "CS2_125",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Lars Grant-West",
+        "text": "<b>Taunt</b>",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Ironfur Grizzly",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "CS2_033",
+        "playerClass": "MAGE",
+        "type": "MINION",
+        "textInPlay": "Frostbolt",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 6,
+        "artist": "John Avon",
+        "flavor": "Don't summon a water elemental at a party.  It'll dampen the mood.",
+        "mechanics": [
+            "FREEZE"
+        ],
+        "name": "Water Elemental",
+        "text": "<b>Freeze</b> any character that Water Elemental damages."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 6,
+        "set": "CORE",
+        "attack": 6,
+        "rarity": "FREE",
+        "health": 7,
+        "artist": "Brian Despain",
+        "id": "CS2_200",
+        "name": "Boulderfist Ogre"
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_313",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 7,
+        "rarity": "EPIC",
+        "health": 5,
+        "artist": "Glenn Rane",
+        "text": "<b>Battlecry:</b> Deal 7 damage to your hero.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Pit Lord",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "CS2_024",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Steve Ellis",
+        "flavor": "It is customary to yell \"Chill out!\" or \"Freeze!\" or \"Ice ice, baby!\" when you play this card.",
+        "mechanics": [
+            "FREEZE"
+        ],
+        "name": "Frost Bolt",
+        "text": "Deal $3 damage to a character and <b>Freeze</b> it."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_089",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Velvet Engine",
+        "flavor": "Golems are wonderful henchmen.  They don't eat or complain, and they look imposing.",
+        "mechanics": [
+            "BATTLECRY",
+            "CHARGE"
+        ],
+        "name": "Arcane Golem",
+        "text": "<b>Charge</b>. <b>Battlecry:</b> Give your opponent a Mana Crystal."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_103",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Arthur Gimaldinov",
+        "text": "<b>Battlecry:</b> Give ALL other Murlocs +2 Health.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Coldlight Seer",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_243",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Raymond Swanland",
+        "mechanics": [
+            "OVERLOAD",
+            "WINDFURY"
+        ],
+        "name": "Dust Devil",
+        "text": "<b>Windfury</b>. <b>Overload:</b> (2)"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "EXPERT1",
+        "name": "Shadowflame",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "RARE",
+        "artist": "Dave Kendall",
+        "id": "EX1_303",
+        "playerClass": "WARLOCK",
+        "text": "Destroy a friendly minion and deal its Attack damage to all enemy minions."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_250",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 7,
+        "rarity": "EPIC",
+        "health": 8,
+        "artist": "Dan Scott",
+        "flavor": "Nothing beats rock.",
+        "mechanics": [
+            "OVERLOAD",
+            "TAUNT"
+        ],
+        "name": "Earth Elemental",
+        "text": "<b>Taunt</b>. <b>Overload:</b> (3)"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "EXPERT1",
+        "name": "Shadowstep",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Graven Tung",
+        "id": "EX1_144",
+        "playerClass": "ROGUE",
+        "text": "Return a friendly minion to your hand."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "EXPERT1",
+        "name": "Mass Dispel",
+        "rarity": "RARE",
+        "artist": "Sean O'Daniels",
+        "id": "EX1_626",
+        "mechanics": [
+            "SILENCE"
+        ],
+        "playerClass": "PRIEST",
+        "text": "<b>Silence</b> all enemy minions. Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 10,
+        "set": "EXPERT1",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "id": "NEW1_030",
+        "type": "MINION",
+        "attack": 12,
+        "rarity": "LEGENDARY",
+        "health": 12,
+        "artist": "Bernie Kang",
+        "flavor": "Once a noble dragon known as Neltharion, Deathwing lost his mind and shattered Azeroth before finally being defeated.  Daddy issues?",
+        "text": "<b>Battlecry:</b> Destroy all other minions and discard your hand.",
+        "name": "Deathwing",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_315",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "textInPlay": "Summoning",
+        "attack": 0,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Tyler Walpole",
+        "flavor": "NOT LESS THAN 1!  Don't get any ideas!",
+        "name": "Summoning Portal",
+        "text": "Your minions cost (2) less, but not less than (1)."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "NEW1_022",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Trent Kaniuga",
+        "text": "<b>Taunt.</b> Costs (1) less per Attack of your weapon.",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Dread Corsair",
+        "race": "PIRATE"
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Anduin Wrynn",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_09",
+        "playerClass": "PRIEST"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_097",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 4,
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "You can smell them long before you can see them.",
+        "mechanics": [
+            "DEATHRATTLE",
+            "TAUNT"
+        ],
+        "name": "Abomination",
+        "text": "<b>Taunt</b>. <b>Deathrattle:</b> Deal 2 damage to ALL characters."
+    },
+    {
+        "collectible": true,
+        "type": "WEAPON",
+        "durability": 4,
+        "cost": 1,
+        "set": "CORE",
+        "name": "Light's Justice",
+        "attack": 1,
+        "rarity": "FREE",
+        "artist": "Glenn Rane",
+        "id": "CS2_091",
+        "playerClass": "PALADIN"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "EXPERT1",
+        "name": "Conceal",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Steve Hui",
+        "id": "EX1_128",
+        "playerClass": "ROGUE",
+        "text": "Give a friendly minion <b>Stealth</b>."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 6,
+        "set": "CORE",
+        "name": "Vanish",
+        "rarity": "COMMON",
+        "flavor": "  ",
+        "artist": "Sean Oâ€™Daniels",
+        "id": "NEW1_004",
+        "playerClass": "ROGUE",
+        "text": "Return all minions to their owner's hand."
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Thrall",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_02",
+        "playerClass": "SHAMAN"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 4,
+        "set": "CORE",
+        "attack": 2,
+        "rarity": "FREE",
+        "health": 7,
+        "artist": "Daren Bader",
+        "id": "CS2_119",
+        "name": "Oasis Snapjaw",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Deal 2 damage.",
+        "cost": 5,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "CS2_150",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Kev Walker",
+        "flavor": "The Stormpike commandos run behind enemy lines to burn Frostwolf towers.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Stormpike Commando",
+        "text": "<b>Battlecry:</b> Deal 2 damage."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Grant +2 Attack.",
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_188",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Luca Zontini",
+        "flavor": "ADD ME TO YOUR DECK, MAGGOT!",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Abusive Sergeant",
+        "text": "<b>Battlecry:</b> Give a friendly minion +2 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 8,
+        "set": "EXPERT1",
+        "id": "EX1_414",
+        "playerClass": "WARRIOR",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "LEGENDARY",
+        "health": 9,
+        "artist": "Glenn Rane",
+        "mechanics": [
+            "CHARGE",
+            "ENRAGED"
+        ],
+        "name": "Grom Hellscream",
+        "text": "<b>Charge</b>.  <b>Enrage:</b> +6 Attack"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_137",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "James Zhang",
+        "flavor": "When all else fails, nothing beats a swift whack upside the head.",
+        "mechanics": [
+            "COMBO"
+        ],
+        "name": "Headcrack",
+        "text": "Deal $2 damage to the enemy hero. <b>Combo:</b> Return this to your hand next turn."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "mechanics": [
+            "ENRAGED"
+        ],
+        "id": "EX1_009",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 1,
+        "artist": "Mike Sass",
+        "flavor": "He wasn't always angry, but eventually all chickens learn that they are destined to be dinner.",
+        "text": "<b>Enrage:</b> +5 Attack.",
+        "name": "Angry Chicken",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Deal 2 damage.",
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_FOR_COMBO": 0
+        },
+        "id": "EX1_134",
+        "playerClass": "ROGUE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Chris Moeller",
+        "flavor": "The agents of SI:7 are responsible for Stormwind's covert activities.  Their duties include espionage, assassination, and throwing surprise birthday parties for the royal family.",
+        "mechanics": [
+            "COMBO"
+        ],
+        "name": "SI:7 Agent",
+        "text": "<b>Combo:</b> Deal 2 damage."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "CORE",
+        "name": "Multi-Shot",
+        "playRequirements": {
+            "REQ_MINIMUM_ENEMY_MINIONS": 2
+        },
+        "rarity": "FREE",
+        "artist": "Benjamin Zhang",
+        "id": "DS1_183",
+        "playerClass": "HUNTER",
+        "text": "Deal $3 damage to two random enemy minions."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_557",
+        "type": "MINION",
+        "textInPlay": "Fishing",
+        "attack": 0,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Steve Prescott",
+        "flavor": "Nat Pagle, Azeroth's premier fisherman!  He invented the Auto-Angler 3000, the Extendo-Pole 3000, and the Lure-o-matic 2099 (still in testing).",
+        "name": "Nat Pagle",
+        "text": "At the end of your turn, you have a 50% chance to draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_396",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 7,
+        "artist": "Cole Eastburn",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Mogu'shan Warden",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "CS2_151",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Matt Starbuck",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Silver Hand Knight",
+        "text": "<b>Battlecry:</b> Summon a 2/2 Squire."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "EX1_241",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Dan Scott",
+        "flavor": "Its like a ocean of liquid magma in your mouth!",
+        "mechanics": [
+            "OVERLOAD"
+        ],
+        "name": "Lava Burst",
+        "text": "Deal $5 damage. <b>Overload:</b> (2)"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Snipe",
+        "rarity": "COMMON",
+        "artist": "Lorenzo Minaca",
+        "id": "EX1_609",
+        "mechanics": [
+            "SECRET"
+        ],
+        "playerClass": "HUNTER",
+        "text": "<b>Secret:</b> When your opponent plays a minion, deal $4 damage to it."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "CS2_131",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Ladronn",
+        "flavor": "He's a little embarrassed about that one time Stormwind was destroyed.",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "name": "Stormwind Knight",
+        "text": "<b>Charge</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_578",
+        "playerClass": "DRUID",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Dave Rapoza",
+        "flavor": "Even the most timid druid becomes a savage beast when you take away his honey.",
+        "name": "Savagery",
+        "text": "Deal damage equal to your hero's Attack to all enemy minions."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Upgrade!",
+        "rarity": "RARE",
+        "artist": "Matt Cavotta",
+        "id": "EX1_409",
+        "playerClass": "WARRIOR",
+        "text": "If you have a weapon, give it +1/+1.  Otherwise equip a 1/3 weapon."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_085",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Leo Che",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Mind Control Tech",
+        "text": "<b>Battlecry:</b> Swap this with a random enemy minion."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Deal 1 damage and grant +2 Attack.",
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_603",
+        "playerClass": "WARRIOR",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Phroilan Gardner",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Cruel Taskmaster",
+        "text": "<b>Battlecry:</b> Deal 1 damage to a minion and give it +2 Attack."
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Gul'dan",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_07",
+        "playerClass": "WARLOCK"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_247",
+        "playerClass": "SHAMAN",
+        "type": "WEAPON",
+        "durability": 3,
+        "attack": 2,
+        "rarity": "COMMON",
+        "artist": "Nathan Bowden",
+        "mechanics": [
+            "OVERLOAD"
+        ],
+        "name": "Stormforged Axe",
+        "text": "<b>Overload:</b> (1)"
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "DS1_188",
+        "playerClass": "HUNTER",
+        "type": "WEAPON",
+        "durability": 2,
+        "attack": 5,
+        "rarity": "EPIC",
+        "artist": "Peter C. Lee",
+        "name": "Gladiator's Longbow",
+        "text": "Your hero is <b>Immune</b> while attacking."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Deal 1 damage.",
+        "cost": 3,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "CS2_141",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Tooth",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Ironforge Rifleman",
+        "text": "<b>Battlecry:</b> Deal 1 damage."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Shiv",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Alex Garner",
+        "id": "EX1_278",
+        "playerClass": "ROGUE",
+        "text": "Deal $1 damage. Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "id": "DS1_055",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Jesper Ejsing",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Darkscale Healer",
+        "text": "<b>Battlecry:</b> Restore 2 Health to all friendly characters."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_613",
+        "playerClass": "ROGUE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "LEGENDARY",
+        "health": 1,
+        "artist": "Jesper Ejsing",
+        "mechanics": [
+            "COMBO",
+            "STEALTH"
+        ],
+        "name": "Edwin VanCleef",
+        "text": "<b>Stealth</b>. <b>Combo:</b> Gain +2/+2 for each other card played this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 0,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_041",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Dan Scott",
+        "flavor": "During battle, you can call upon the strength of your ancestors!  So have a big family!",
+        "name": "Ancestral Healing",
+        "text": "Restore a minion to full Health and give it <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "NEW1_012",
+        "playerClass": "MAGE",
+        "type": "MINION",
+        "textInPlay": "Gorging",
+        "attack": 0,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Blizzard Cinematics",
+        "flavor": "These wyrms feed on arcane energies, and while they are generally considered a nuisance rather than a real threat, you really shouldn't leave them alone with a bucket of mana.",
+        "name": "Mana Wyrm",
+        "text": "Whenever you cast a spell, gain +1 Attack."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Deal 3 damage.",
+        "cost": 6,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "CS2_042",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 6,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Ralph Horsley",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Fire Elemental",
+        "text": "<b>Battlecry:</b> Deal 3 damage."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_507",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "EPIC",
+        "health": 3,
+        "artist": "Tim McBurnie",
+        "text": "ALL other Murlocs have +1/+1.",
+        "name": "Murloc Warleader",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Rexxar",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_05",
+        "playerClass": "HUNTER"
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "CS2_053",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 0,
+        "rarity": "EPIC",
+        "health": 1,
+        "artist": "Jim Nelson",
+        "text": "Your cards cost (1) less.",
+        "name": "Mana Spring Totem",
+        "race": "TOTEM"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Corruption",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Wayne Reynolds",
+        "id": "CS2_063",
+        "playerClass": "WARLOCK",
+        "text": "Choose an enemy minion.   At the start of your turn, destroy it."
+    },
+    {
+        "collectible": true,
+        "cost": 0,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_332",
+        "playerClass": "PRIEST",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Zoltan & Gabor",
+        "flavor": "Reserved for enemy spellcasters, evil liches from beyond the grave, and karaoke nights at the Grim Guzzler.",
+        "mechanics": [
+            "SILENCE"
+        ],
+        "name": "Silence",
+        "text": "<b>Silence</b> a minion."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "NEW1_008",
+        "playerClass": "DRUID",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "EPIC",
+        "health": 5,
+        "artist": "Patrik Hjelm",
+        "flavor": "The Ancients of Lore are responsible for training Dryads, Druids of the Claw, and Druids of the Puddle.",
+        "name": "Ancient of Lore",
+        "text": "<b>Choose One -</b> Draw 2 cards; or Restore 8 Health."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_WEAPON_EQUIPPED": 0
+        },
+        "id": "CS2_074",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Trevor Jacobs",
+        "flavor": "Rogues guard the secrets to poison-making carefully, lest magi start incorporating poison into their spells.  Poisonbolt? Rain of Poison?  Poison Elemental?  Nobody wants that.",
+        "name": "Deadly Poison",
+        "text": "Give your weapon +2 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_522",
+        "playerClass": "ROGUE",
+        "type": "MINION",
+        "textInPlay": "Sharpening",
+        "attack": 1,
+        "rarity": "EPIC",
+        "health": 1,
+        "artist": "Ben Olson",
+        "flavor": "Heâ€™s not really that patient. It just takes a while for someone to walk by that he can actually reach.",
+        "mechanics": [
+            "STEALTH"
+        ],
+        "name": "Patient Assassin",
+        "text": "<b>Stealth</b>. Destroy any minion damaged by this minion."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_604",
+        "playerClass": "WARRIOR",
+        "type": "MINION",
+        "textInPlay": "Berserk",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 4,
+        "artist": "Simon Bisley",
+        "flavor": "He used to work as a accountant before he tried his hand at Berserkering.",
+        "name": "Frothing Berserker",
+        "text": "Whenever a minion takes damage, gain +1 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_058",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "James Ryman",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Sunfury Protector",
+        "text": "<b>Battlecry:</b> Your other minions gain <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "id": "EX1_110",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Wayne Reynolds",
+        "mechanics": [
+            "DEATHRATTLE"
+        ],
+        "name": "Cairne Bloodhoof",
+        "text": "<b>Deathrattle:</b> Summon a 4/5 Baine Bloodhoof."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "DS1_185",
+        "playerClass": "HUNTER",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Luca Zontini",
+        "flavor": "Magi conjured arcane arrows to sell to hunters, until hunters learned just enough magic to do it themselves.  The resulting loss of jobs sent Stormwind into a minor recession.",
+        "name": "Arcane Shot",
+        "text": "Deal $2 damage."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "CS2_007",
+        "playerClass": "DRUID",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Cyril Van Der Haegen",
+        "flavor": "The technique for this Touch is only slightly different than the \"Touch of Intense Pain\", and it takes years to learn the difference.",
+        "name": "Healing Touch",
+        "text": "Restore 8 Health."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_590",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "EPIC",
+        "health": 3,
+        "artist": "Trent Kaniuga",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Blood Knight",
+        "text": "<b>Battlecry:</b> All minions lose <b>Divine Shield</b>. Gain +3/+3 for each Shield lost."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "NEW1_020",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "Don't invite this guy to your house!",
+        "name": "Wild Pyromancer",
+        "text": "Whenever you cast a spell, deal 1 damage to a random enemy."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_080",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "textInPlay": "Firey",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 1,
+        "artist": "Gonzalo Ordonez",
+        "name": "Secretkeeper",
+        "text": "Whenever a <b>Secret</b> is revealed, gain +1/+1."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_612",
+        "playerClass": "MAGE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Concept Art House",
+        "flavor": "The Kirin Tor reside in the floating city of Dalaran.  How do you make a Dalaran float?  Two scoops of ice cream, one scoop of Dalaran.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Kirin Tor Mage",
+        "text": "<b>Battlecry:</b> The next <b>Secret</b> you play this turn costs (0)."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Give <b>Divine Shield</b>.",
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_362",
+        "playerClass": "PALADIN",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Doug Alexander",
+        "flavor": "\"I'm not saying you can dodge fireballs.  I'm saying with this shield, you won't have to.\"",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Argent Protector",
+        "text": "<b>Battlecry:</b> Give a friendly minion <b>Divine Shield</b>."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Savage Roar",
+        "rarity": "COMMON",
+        "flavor": "What do they roar? Nobody can quite tell, but it sounds like \"Elephant Macho Breeze\".  It's probably not that, though.",
+        "artist": "Grace Liu",
+        "id": "CS2_011",
+        "playerClass": "DRUID",
+        "text": "Give your characters +2 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "NEW1_041",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "Daren Bader",
+        "text": "<b>Battlecry:</b> Destroy a random enemy minion with 2 or less Attack.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Stampeding Kodo",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "EXPERT1",
+        "name": "Brawl",
+        "playRequirements": {
+            "REQ_MINIMUM_TOTAL_MINIONS": 2
+        },
+        "rarity": "EPIC",
+        "artist": "Wayne Reynolds",
+        "id": "EX1_407",
+        "playerClass": "WARRIOR",
+        "text": "Destroy all minions except one.  (chosen randomly)"
+    },
+    {
+        "collectible": true,
+        "cost": 0,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_607",
+        "playerClass": "WARRIOR",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Slawomir Maniak",
+        "flavor": "They're only smiling on the outside.",
+        "name": "Inner Rage",
+        "text": "Deal $1 damage to a minion.  It gains +2 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 3,
+        "set": "CORE",
+        "attack": 5,
+        "rarity": "FREE",
+        "health": 1,
+        "artist": "Matt Gaser",
+        "id": "CS2_118",
+        "name": "Magma Rager"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Heroic Strike",
+        "rarity": "FREE",
+        "artist": "Jonboy Meyers",
+        "id": "CS2_105",
+        "playerClass": "WARRIOR",
+        "text": "Give your hero +4 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "CS2_097",
+        "playerClass": "PALADIN",
+        "type": "WEAPON",
+        "durability": 2,
+        "attack": 4,
+        "rarity": "COMMON",
+        "artist": "Ryan Sook",
+        "name": "Truesilver Champion",
+        "text": "When your hero attacks, restore 2 Health to it."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 7,
+        "set": "CORE",
+        "name": "Sprint",
+        "rarity": "COMMON",
+        "artist": "Tom Fleming",
+        "id": "CS2_077",
+        "playerClass": "ROGUE",
+        "text": "Draw 4 cards."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 7,
+        "set": "CORE",
+        "attack": 7,
+        "rarity": "COMMON",
+        "health": 7,
+        "artist": "Dave Kendall",
+        "id": "CS2_186",
+        "flavor": "Golems are not afraid, but for some reason they still run when you cast Fear on them.  Instinct, maybe?  A desire to blend in?",
+        "name": "War Golem"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_017",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Jaemin Kim",
+        "text": "<b>Stealth</b>",
+        "mechanics": [
+            "STEALTH"
+        ],
+        "name": "Jungle Panther",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_302",
+        "playerClass": "WARLOCK",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Matt Gaser",
+        "flavor": "If your spells look like horrifying skulls, let's be honest, you should get to draw some cards.",
+        "name": "Death Coil",
+        "text": "Deal $1 damage to a minion. If that kills it, draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_076",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "textInPlay": "Ritual",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Ron Spears",
+        "name": "Pint-Sized Summoner",
+        "text": "The first minion you play each turn costs (2) less."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_131",
+        "playerClass": "ROGUE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Efrem Palacios",
+        "mechanics": [
+            "COMBO"
+        ],
+        "name": "Defias Ringleader",
+        "text": "<b>Combo:</b> Summon a 2/1 Defias Bandit."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "EXPERT1",
+        "name": "Preparation",
+        "rarity": "EPIC",
+        "artist": "Clint Langley",
+        "id": "EX1_145",
+        "playerClass": "ROGUE",
+        "text": "The next spell you cast this turn costs (2) less."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "EX1_025",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Warren Mahy",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Dragonling Mechanic",
+        "text": "<b>Battlecry:</b> Summon a 2/1 Mechanical Dragonling."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Wrath",
+        "rarity": "COMMON",
+        "flavor": "Hamuul Runetotem loves this card.",
+        "artist": "Raymond Swanland",
+        "id": "EX1_154",
+        "playerClass": "DRUID",
+        "text": "<b>Choose One</b> - Deal $3 damage; or Deal $1 damage and draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "CS1_130",
+        "playerClass": "PRIEST",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Steve Ellis",
+        "flavor": "It doesn't matter how pious you are.  Everyone needs a good smiting now and again.",
+        "name": "Holy Smite",
+        "text": "Deal $2 damage."
+    },
+    {
+        "collectible": true,
+        "cost": 8,
+        "set": "EXPERT1",
+        "id": "EX1_573",
+        "playerClass": "DRUID",
+        "type": "MINION",
+        "textInPlay": "Demigod",
+        "attack": 5,
+        "rarity": "LEGENDARY",
+        "health": 8,
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "Yes, he's a demigod. No, he doesn't need to wear a shirt.",
+        "name": "Cenarius",
+        "text": "<b>Choose One</b> - Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 1,
+        "set": "EXPERT1",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Vance Kovacs",
+        "id": "EX1_004",
+        "name": "Young Priestess",
+        "text": "At the end of your turn, give another random friendly minion +1 Health."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "id": "EX1_304",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "If you put this into your deck, you WILL lose the trust of your other minions.",
+        "text": "<b>Battlecry:</b> Destroy the minions on either side of this minion and gain their Attack and Health.",
+        "name": "Void Terror",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 0,
+        "set": "EXPERT1",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Malcolm Davis",
+        "id": "CS2_231",
+        "flavor": "They may look innocuous, but with enough of these you can cause a huge eredar lord to explode!",
+        "name": "Wisp"
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "CS2_197",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "James Ryman",
+        "mechanics": [
+            "SPELLPOWER"
+        ],
+        "name": "Ogre Magi",
+        "text": "<b>Spell Power +1</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "NEW1_024",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Dan Scott",
+        "text": "Whenever you attack with your hero, draw a card.",
+        "name": "Captain Greenskin",
+        "race": "PIRATE"
+    },
+    {
+        "collectible": true,
+        "cost": 8,
+        "set": "EXPERT1",
+        "id": "NEW1_010",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Raymond Swanland",
+        "flavor": "He is the weakest of the four Elemental Lords.  And the other three don't let him forget it.",
+        "mechanics": [
+            "CHARGE",
+            "DIVINE_SHIELD",
+            "TAUNT",
+            "WINDFURY"
+        ],
+        "name": "Al'Akir the Windlord",
+        "text": "<b>Windfury, Charge, Divine Shield, Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_008",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Zoltan & Gabor",
+        "mechanics": [
+            "DIVINE_SHIELD"
+        ],
+        "name": "Argent Squire",
+        "text": "<b>Divine Shield</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_038",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Zoltan & Gabor",
+        "flavor": "Death was just a setback!",
+        "name": "Ancestral Spirit",
+        "text": "Choose a minion. When that minion is destroyed, return it to the battlefield."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "id": "CS2_168",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "FREE",
+        "health": 1,
+        "artist": "Dan Scott",
+        "flavor": "Mrrraggglhlhghghlgh, mrgaaag blarrghlgaahahl mrgggg glhalhah a bghhll graggmgmg Garrosh mglhlhlh mrghlhlhl!!",
+        "name": "Murloc Raider",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "id": "CS2_112",
+        "playerClass": "WARRIOR",
+        "type": "WEAPON",
+        "durability": 2,
+        "attack": 5,
+        "rarity": "COMMON",
+        "artist": "Stefan Kopinski",
+        "flavor": "Noâ€¦ actually you should fear the Reaper.",
+        "name": "Arcanite Reaper"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Arcane Explosion",
+        "rarity": "FREE",
+        "flavor": "This spell is much better than Arcane Implosion.",
+        "artist": "Howard Lyon",
+        "id": "CS2_025",
+        "playerClass": "MAGE",
+        "text": "Deal $1 damage to all enemy minions."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "id": "CS2_080",
+        "playerClass": "ROGUE",
+        "type": "WEAPON",
+        "durability": 4,
+        "attack": 3,
+        "rarity": "COMMON",
+        "artist": "Brian Huang",
+        "flavor": "Guaranteed to have been owned by a real assassin.   Certificate of authenticity included.",
+        "name": "Assassin's Blade"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "id": "CS2_122",
+        "type": "MINION",
+        "textInPlay": "Lead",
+        "attack": 2,
+        "rarity": "FREE",
+        "health": 2,
+        "artist": "Phill Gonzales",
+        "name": "Raid Leader",
+        "text": "Your other minions have +1 Attack."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 6,
+        "set": "EXPERT1",
+        "attack": 4,
+        "rarity": "LEGENDARY",
+        "health": 4,
+        "artist": "Laurel \"LD\" Austin",
+        "id": "NEW1_040",
+        "name": "Hogger",
+        "text": "At the end of your turn, summon a 2/2 Gnoll with <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "id": "EX1_508",
+        "type": "MINION",
+        "textInPlay": "Argalagblbl",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Phil Saunders",
+        "text": "ALL other Murlocs have +1 Attack.",
+        "name": "Grimscale Oracle",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_591",
+        "playerClass": "PRIEST",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "Doug Alexander",
+        "name": "Auchenai Soulpriest",
+        "text": "Your cards and powers that restore Health now deal damage instead."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 8,
+        "set": "EXPERT1",
+        "name": "Lay on Hands",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "EPIC",
+        "artist": "Raymond Swanland",
+        "id": "EX1_354",
+        "playerClass": "PALADIN",
+        "text": "Restore 8 Health. Draw 3 cards."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_534",
+        "playerClass": "HUNTER",
+        "type": "MINION",
+        "textInPlay": "Master",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Alex Horley Orlandelli",
+        "name": "Darkspear Hunter",
+        "text": "Whenever you play a Beast, the Beast gains +1/+1."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_092",
+        "playerClass": "PALADIN",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Lucas Graciano",
+        "flavor": "Given the number of kings who have been assassinated, are you sure you want their blessing?",
+        "name": "Blessing of Kings",
+        "text": "Give a minion +4/+4. <i>(+4 Attack/+4 Health)</i>"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Claw",
+        "rarity": "FREE",
+        "flavor": "If you want to distract a Druid in Cat Form, shine a Gnomish Laser at the ground and move it around.",
+        "artist": "Dany Orizio",
+        "id": "CS2_005",
+        "playerClass": "DRUID",
+        "text": "Give your hero +3 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "id": "CS2_226",
+        "faction": "HORDE",
+        "type": "MINION",
+        "textInPlay": "Warlord",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "James Ryman",
+        "name": "Frostwolf Warlord",
+        "text": "Has +1/+1 for each other friendly minion on the battlefield."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 8,
+        "set": "EXPERT1",
+        "name": "Twisting Nether",
+        "rarity": "EPIC",
+        "artist": "Dave Allsop",
+        "id": "EX1_312",
+        "playerClass": "WARLOCK",
+        "text": "Destroy all minions."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "id": "CS2_127",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Ittoku Seta",
+        "flavor": "KING MUKLA APPROVES.",
+        "text": "<b>Taunt</b>",
+        "name": "Silverback Patriarch",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Naturalize",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Leo Che",
+        "id": "EX1_161",
+        "playerClass": "DRUID",
+        "text": "Destroy a minion. Your opponent draws 2 cards."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_363",
+        "playerClass": "PALADIN",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Brian 'Chippy' Dugan",
+        "flavor": "Apparently with wisdom comes the knowledge that you should probably be attacking every turn.",
+        "name": "Blessing of Wisdom",
+        "text": "Choose a minion.  Whenever it attacks, draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "EX1_124",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Ariel Olivetti",
+        "mechanics": [
+            "COMBO"
+        ],
+        "name": "Eviscerate",
+        "text": "Deal $2 damage. <b>Combo:</b> Deal $4 damage instead."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_392",
+        "playerClass": "WARRIOR",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "\"You won't like me when I'm angry.\"",
+        "name": "Battle Rage",
+        "text": "Draw a card for each damaged minion."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "EX1_408",
+        "playerClass": "WARRIOR",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Zoltan & Gabor",
+        "flavor": "\"If you only use one ability, use Mortal Strike.\" - The Warrior Code, Line 6",
+        "name": "Mortal Strike",
+        "text": "Deal $4 damage.  If your hero has 12 or less Health, deal $6 damage instead."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_554",
+        "playerClass": "HUNTER",
+        "type": "SPELL",
+        "rarity": "EPIC",
+        "artist": "Bernie Kang",
+        "flavor": "Why did it have to be snakes?",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Snake Trap",
+        "text": "<b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Deal 1 damage.",
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "CS2_189",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Steve Prescott",
+        "flavor": "Don't bother asking her out on a date.  She'll shoot you down.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Elven Archer",
+        "text": "<b>Battlecry:</b> Deal 1 damage."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "EXPERT1",
+        "name": "Betrayal",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Lucas Graciano",
+        "id": "EX1_126",
+        "playerClass": "ROGUE",
+        "text": "An enemy minion deals its damage to the minions next to it."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Death Wish",
+        "rarity": "EPIC",
+        "flavor": "\"What is a better weapon? The sharp one your enemies expect, or the blunt one they ignore?\" - The Art of Warrior, Chapter 9",
+        "artist": "Jim Murray",
+        "id": "EX1_410",
+        "playerClass": "WARRIOR",
+        "text": "Your hero loses all Armor and gets +1 Attack this turn for each Armor lost."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Freeze a character.",
+        "cost": 6,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "EX1_283",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Dan Scott",
+        "mechanics": [
+            "BATTLECRY",
+            "FREEZE"
+        ],
+        "name": "Frost Elemental",
+        "text": "<b>Battlecry:</b> <b>Freeze</b> a character."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Demonfire",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Ben Wootten",
+        "id": "EX1_596",
+        "playerClass": "WARLOCK",
+        "text": "Deal $2 damage to a minion.  If the target is a Demon, give it +2/+2 instead."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Divine Favor",
+        "rarity": "RARE",
+        "artist": "Lucas Graciano",
+        "id": "EX1_349",
+        "playerClass": "PALADIN",
+        "text": "Draw cards until you have as many in hand as your opponent."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "entourage": [
+            "Mekka1",
+            "Mekka2",
+            "Mekka3",
+            "Mekka4"
+        ],
+        "id": "EX1_112",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 6,
+        "rarity": "LEGENDARY",
+        "health": 6,
+        "flavor": "He's the leader of the gnomes, and an incredible inventor.  He's getting better, too: he turns things into chickens WAY less than he used to.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Gelbin Mekkatorque",
+        "text": "<b>Battlecry:</b> Summon an AWESOME invention."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_536",
+        "playerClass": "HUNTER",
+        "type": "WEAPON",
+        "durability": 2,
+        "attack": 3,
+        "rarity": "RARE",
+        "artist": "Cyril Van Der Haegen",
+        "name": "Eaglehorn Bow",
+        "text": "Whenever a <b>Secret</b> is revealed, gain +1 Durability."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_082",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Mike Sass",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Mad Bomber",
+        "text": "<b>Battlecry:</b> Deal 3 damage randomly split between all other characters."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "NEW1_006",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "EPIC",
+        "artist": "Jonboy Meyers",
+        "flavor": "Rogues don't need to jump from the top of the 1000 Needles to get a burst of adrenaline.",
+        "mechanics": [
+            "COMBO"
+        ],
+        "name": "Adrenaline Rush",
+        "text": "Draw a card. <b>Combo:</b> Draw 2 cards instead."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "EXPERT1",
+        "name": "Thoughtsteal",
+        "rarity": "COMMON",
+        "artist": "Alex Garner",
+        "id": "EX1_339",
+        "playerClass": "PRIEST",
+        "text": "Copy 2 cards from your opponent's deck and put them into your hand."
+    },
+    {
+        "collectible": true,
+        "cost": 8,
+        "set": "EXPERT1",
+        "id": "NEW1_038",
+        "type": "MINION",
+        "textInPlay": "Growth",
+        "attack": 7,
+        "rarity": "LEGENDARY",
+        "health": 7,
+        "artist": "Kev Walker",
+        "flavor": "Gruul the Dragonkiller deserves his name.  The bones of dragons litter his lair in the Blade's Edge Mountains.",
+        "name": "Gruul",
+        "text": "At the end of each turn, gain +1/+1 ."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "CORE",
+        "name": "Holy Nova",
+        "rarity": "COMMON",
+        "artist": "Luca Zontini",
+        "id": "CS1_112",
+        "playerClass": "PRIEST",
+        "text": "Deal $2 damage to all enemies.  Restore 2 Health to all  friendly characters."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Change Attack to 1.",
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "id": "EX1_382",
+        "playerClass": "PALADIN",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Dany Orizio",
+        "flavor": "The Aldor hate two things: the Scryers and smooth jazz.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Aldor Peacekeeper",
+        "text": "<b>Battlecry:</b> Change an enemy minion's Attack to 1."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "id": "EX1_593",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "FREE",
+        "health": 4,
+        "artist": "Raymond Swanland",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Nightblade",
+        "text": "<b>Battlecry: </b>Deal 3 damage to the enemy hero."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "CORE",
+        "name": "Bloodlust",
+        "rarity": "COMMON",
+        "artist": "Luca Zontini",
+        "id": "CS2_046",
+        "playerClass": "SHAMAN",
+        "text": "Give your minions +3 Attack this turn."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "CS2_221",
+        "faction": "HORDE",
+        "type": "MINION",
+        "textInPlay": "Summoning",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Brian 'Chippy' Dugan",
+        "name": "Dark Summoner",
+        "text": "The first minion you play each turn costs (3) less."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "EXPERT1",
+        "name": "Dark Command",
+        "playRequirements": {
+            "REQ_NUM_MINION_SLOTS": 1,
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_TARGET_MAX_ATTACK": 3,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "rarity": "RARE",
+        "artist": "Mark Gibbons",
+        "id": "EX1_334",
+        "playerClass": "PRIEST",
+        "text": "Gain control of an enemy minion with 3 or less Attack until end of turn."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_531",
+        "playerClass": "HUNTER",
+        "type": "MINION",
+        "textInPlay": "Scavenging",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Jim Nelson",
+        "text": "Whenever a Beast dies, gain +2/+1.",
+        "name": "Scavenging Hyena",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 8,
+        "set": "EXPERT1",
+        "id": "EX1_383",
+        "playerClass": "PALADIN",
+        "type": "MINION",
+        "attack": 6,
+        "rarity": "LEGENDARY",
+        "health": 6,
+        "artist": "Brom",
+        "mechanics": [
+            "DEATHRATTLE",
+            "DIVINE_SHIELD",
+            "TAUNT"
+        ],
+        "name": "Tirion Fordring",
+        "text": "<b>Divine Shield</b>. <b>Taunt</b>. <b>Deathrattle:</b> Equip a 5/3 Ashbringer."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_093",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Alex Horley Orlandelli",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Defender of Argus",
+        "text": "<b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 0,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "id": "CS2_072",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Michael Sutfin",
+        "flavor": "It's funny how often yelling \"Look over there!\" gets your opponent to turn around.",
+        "name": "Backstab",
+        "text": "Deal $2 damage to an enemy minion."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_533",
+        "playerClass": "HUNTER",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Daren Bader",
+        "flavor": "It's surprising how well yelling \"LOOK OVER THERE!\" works.",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Misdirection",
+        "text": "<b>Secret:</b> When a character attacks your hero, instead he attacks another random character."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Mark of the Wild",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "FREE",
+        "artist": "Brad Vancata",
+        "id": "CS2_009",
+        "playerClass": "DRUID",
+        "text": "Give a minion <b>Taunt</b> and +2/+2.<i> (+2 Attack/+2 Health)</i>"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "EX1_565",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "textInPlay": "Flametongue",
+        "attack": 0,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Jonathan Ryder",
+        "text": "Adjacent minions have +2 Attack.",
+        "mechanics": [
+            "ADJACENT_BUFF"
+        ],
+        "name": "Flametongue Totem",
+        "race": "TOTEM"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Fan of Knives",
+        "rarity": "COMMON",
+        "flavor": "I wouldn't say I LOVE knives, but I'm definitely a fan.",
+        "artist": "Andrew Robinson",
+        "id": "EX1_129",
+        "playerClass": "ROGUE",
+        "text": "Deal $1-$2 damage to all enemy minions."
+    },
+    {
+        "collectible": true,
+        "cost": 9,
+        "set": "EXPERT1",
+        "id": "EX1_563",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "LEGENDARY",
+        "health": 12,
+        "artist": "Michael Komarck",
+        "text": "<b>Spell Power +5</b>",
+        "mechanics": [
+            "SPELLPOWER"
+        ],
+        "name": "Malygos",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_096",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Jim Nelson",
+        "mechanics": [
+            "DEATHRATTLE"
+        ],
+        "name": "Loot Hoarder",
+        "text": "<b>Deathrattle:</b> Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_258",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Matt Gaser",
+        "name": "Unbound Elemental",
+        "text": "Whenever you play a card with <b>Overload</b>, gain +1/+1."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Destroy a minion with Taunt.",
+        "cost": 6,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_MUST_TARGET_TAUNTER": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "id": "EX1_002",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Alex Horley Orlandelli",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "The Black Knight",
+        "text": "<b>Battlecry:</b> Destroy a minion with <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 0,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "CS2_008",
+        "playerClass": "DRUID",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Richard Wright",
+        "flavor": "\"Cast Moonfire, and never stop.\" - How to Be a Druid, Chapter 5, Section 3",
+        "name": "Moonfire",
+        "text": "Deal $1 damage."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_026",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Josh Tallman",
+        "flavor": "Nothing is more demoralizing than grabbing 15 of these in Forge Mode.  But, you run the risk of getting slapped.",
+        "mechanics": [
+            "FREEZE"
+        ],
+        "name": "Frost Nova",
+        "text": "<b>Freeze</b> all enemy minions."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_402",
+        "playerClass": "WARRIOR",
+        "type": "MINION",
+        "textInPlay": "Smithing",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Greg Hildebrandt",
+        "name": "Armorsmith",
+        "text": "Whenever a friendly minion takes damage, gain 1 Armor."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_245",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Kevin Chin",
+        "mechanics": [
+            "SILENCE"
+        ],
+        "name": "Earth Shock",
+        "text": "Deal $1 damage to a minion and <b>Silence</b> it."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "CORE",
+        "name": "Hammer of Wrath",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "FREE",
+        "artist": "Efrem Palacios",
+        "id": "CS2_094",
+        "playerClass": "PALADIN",
+        "text": "Deal $3 damage.  Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_237",
+        "playerClass": "HUNTER",
+        "type": "MINION",
+        "textInPlay": "Soaring",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Bernie Kang",
+        "flavor": "If you feed him, he loses his whole <i>identity</i>.",
+        "text": "Whenever you play a Beast, draw a card.",
+        "name": "Starving Buzzard",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 7,
+        "set": "EXPERT1",
+        "attack": 7,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Ian Ameling",
+        "id": "EX1_249",
+        "name": "Baron Geddon",
+        "text": "At the end of your turn, deal 2 damage to ALL other characters."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Give <b>Stealth</b>.",
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "NEW1_014",
+        "playerClass": "ROGUE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Ron Spencer",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Master of Disguise",
+        "text": "<b>Battlecry:</b> Give a friendly minion <b>Stealth</b>."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Become a copy of a minion.",
+        "cost": 5,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_564",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "EPIC",
+        "health": 3,
+        "artist": "Raymond Swanland",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Faceless Manipulator",
+        "text": "<b>Battlecry:</b> Choose a minion and become a copy of it."
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Garrosh Hellscream",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_01",
+        "playerClass": "WARRIOR"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 4,
+        "set": "CORE",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Mauro Cascioli",
+        "id": "CS2_182",
+        "name": "Chillwind Yeti"
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "id": "EX1_583",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Dan Scott",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Priestess of Elune",
+        "text": "<b>Battlecry:</b> Restore 4 Health to your hero."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Swap Attack and Health of a minion.",
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_059",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Tom Fleming",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Crazed Alchemist",
+        "text": "<b>Battlecry:</b> Swap the Attack and Health of a minion."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 5,
+        "set": "EXPERT1",
+        "name": "Starfall",
+        "rarity": "RARE",
+        "flavor": "The name is metaphorical, of course.  You wouldn't want a literal Starfall, though some druids brag they are capable of that.",
+        "artist": "Richard Wright",
+        "id": "NEW1_007",
+        "playerClass": "DRUID",
+        "text": "<b>Choose One -</b> Deal $5 damage to an enemy; or $2 damage to all of them."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "EX1_173",
+        "playerClass": "DRUID",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "If you see an opposing druid start to cast this spell, get into the fetal position.",
+        "name": "Starfire",
+        "text": "Deal $5 damage.  Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_NUM_MINION_SLOTS": 1
+        },
+        "id": "EX1_248",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Clint Langley",
+        "mechanics": [
+            "OVERLOAD"
+        ],
+        "name": "Feral Spirit",
+        "text": "Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (2)"
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Jaina Proudmoore",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_08",
+        "playerClass": "MAGE"
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "CORE",
+        "id": "CS2_222",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "textInPlay": "For the Alliance!",
+        "attack": 6,
+        "rarity": "COMMON",
+        "health": 6,
+        "artist": "Doug Alexander",
+        "flavor": "When Deathwing assaulted the capital, this soldier was the only member of his squad to survive. Now he's all bitter and stuff.",
+        "name": "Stormwind Champion",
+        "text": "Your other minions have +1/+1."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "CS2_028",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Chris Seaman",
+        "flavor": "This spell can be very Entertaining.",
+        "mechanics": [
+            "FREEZE"
+        ],
+        "name": "Blizzard",
+        "text": "Deal $2 damage to all enemy minions and <b>Freeze</b> them."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_295",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "EPIC",
+        "artist": "Carl Frank",
+        "flavor": "Ice is nice, and will suffice!",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Ice Block",
+        "text": "<b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 6,
+        "set": "EXPERT1",
+        "name": "Avenging Wrath",
+        "rarity": "EPIC",
+        "artist": "Ryan Church",
+        "id": "EX1_384",
+        "mechanics": [
+            "ImmuneToSpellpower"
+        ],
+        "playerClass": "PALADIN",
+        "text": "Shoot $8 missiles at random enemies for 1 damage each."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_597",
+        "type": "MINION",
+        "textInPlay": "Imp Master",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 6,
+        "artist": "Mark Gibbons",
+        "mechanics": [
+            "InvisibleDeathrattle"
+        ],
+        "name": "Imp Master",
+        "text": "At the end of your turn, deal 1 damage to this minion and summon a 1/1 Imp."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_095",
+        "type": "MINION",
+        "textInPlay": "Auctioning",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 4,
+        "artist": "Matt Dixon",
+        "name": "Gadgetzan Auctioneer",
+        "text": "Whenever you cast a spell, draw a card."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Steal a minion that has 2 or less Attack.",
+        "cost": 6,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_MINION_CAP_IF_TARGET_AVAILABLE": 2,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_TARGET_MAX_ATTACK": 2,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "id": "EX1_091",
+        "playerClass": "PRIEST",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "EPIC",
+        "health": 4,
+        "artist": "Brian 'Chippy' Dugan",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Cabal Shadow Priest",
+        "text": "<b>Battlecry:</b> Take control of an enemy minion that has 2 or less Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 0,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "EX1_308",
+        "playerClass": "WARLOCK",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Raymond Swanland",
+        "flavor": "Are you lighting a soul on fire? Or burning someone with your OWN soul? This seems like an important distinction.",
+        "name": "Soulfire",
+        "text": "Deal $4 damage. Discard a random card."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "tt_004",
+        "type": "MINION",
+        "textInPlay": "Cannibalism",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "'Flesheating' is an unfair name.  It's just that there's not really much else for him to eat.",
+        "name": "Flesheating Ghoul",
+        "text": "Whenever a minion dies, gain +1 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_275",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Concept Art House",
+        "flavor": "Magi of the Kirin Tor were casting Cubes of Cold for many years before Cones came into fashion some 90 years ago.",
+        "mechanics": [
+            "FREEZE"
+        ],
+        "name": "Cone of Cold",
+        "text": "<b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "NEW1_037",
+        "type": "MINION",
+        "textInPlay": "Smithing",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "E.M. Gist",
+        "name": "Master Swordsmith",
+        "text": "At the end of your turn, give another random friendly minion +1 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "CORE",
+        "id": "CS2_088",
+        "playerClass": "PALADIN",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 6,
+        "artist": "E.M. Gist",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Guardian of Kings",
+        "text": "<b>Battlecry:</b> Restore 6 Health to your hero."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "EXPERT1",
+        "name": "Mark of Nature",
+        "rarity": "COMMON",
+        "flavor": "Druids call it the \"Mark of Nature\".  Everyone else calls it \"needing a bath\".",
+        "artist": "Clint Langley",
+        "id": "EX1_155",
+        "playerClass": "DRUID",
+        "text": "<b>Choose One</b> - Give a minion +4 Attack; or +4 Health and <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Give a Beast +2/+2 and Taunt.",
+        "cost": 4,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_TARGET_WITH_RACE": 20,
+            "REQ_TARGET_IF_AVAILABLE": 0
+        },
+        "id": "DS1_070",
+        "playerClass": "HUNTER",
+        "type": "MINION",
+        "textInPlay": "Beastmaster",
+        "attack": 4,
+        "rarity": "FREE",
+        "health": 3,
+        "artist": "Dan Brereton",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Houndmaster",
+        "text": "<b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_575",
+        "playerClass": "SHAMAN",
+        "type": "MINION",
+        "attack": 0,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Scott Altmann",
+        "text": "At the end of your turn, draw a card.",
+        "name": "Mana Tide Totem",
+        "race": "TOTEM"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_162",
+        "type": "MINION",
+        "textInPlay": "Alpha Dog",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "John Dickenson",
+        "text": "Adjacent minions have +1 Attack.",
+        "mechanics": [
+            "ADJACENT_BUFF"
+        ],
+        "name": "Dire Wolf Alpha",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "<b>Silence</b> a minion.",
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "id": "CS2_203",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Trevor Jacobs",
+        "flavor": "Their wings are silent but their screech is... whatever the opposite of silent is.",
+        "text": "<b>Battlecry:</b> <b>Silence</b> a minion.",
+        "name": "Ironbeak Owl",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 9,
+        "set": "EXPERT1",
+        "id": "EX1_560",
+        "type": "MINION",
+        "textInPlay": "Aspect of Time",
+        "attack": 8,
+        "rarity": "LEGENDARY",
+        "health": 8,
+        "artist": "James Ryman",
+        "text": "Players only have 15 seconds to take their turns.",
+        "name": "Nozdormu",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_294",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Raven Mimura",
+        "flavor": "\"You go first.\" - Krush'gor the Behemoth, to his pet boar.",
+        "mechanics": [
+            "SECRET"
+        ],
+        "name": "Mirror Entity",
+        "text": "<b>Secret:</b> When an enemy minion attacks, summon a copy of it."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "CS2_179",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "FREE",
+        "health": 5,
+        "artist": "Brian Despain",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Sen'jin Shieldmasta",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "CS2_146",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Dan Brereton",
+        "text": "Has <b>Charge</b> while you have a weapon equipped.",
+        "name": "Southsea Deckhand",
+        "race": "PIRATE"
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Transform a minion into a 5/5 or a 1/1 at random.",
+        "cost": 3,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_083",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "LEGENDARY",
+        "health": 2,
+        "artist": "Tom Baxa",
+        "flavor": "There is a reeeeeeeeeally small chance that instead of a Devilsaur it'll become The Lich King.  Reeeeeeeally small.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Tinkmaster Overspark",
+        "text": "<b>Battlecry:</b> Transform a minion into a 5/5 Devilsaur or a 1/1 Squirrel at random."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_595",
+        "type": "MINION",
+        "textInPlay": "Cultist",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Raymond Swanland",
+        "name": "Cult Master",
+        "text": "Whenever one of your other minions dies, draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "id": "CS2_012",
+        "playerClass": "DRUID",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Sean Oâ€™Daniels",
+        "flavor": "Goblins used to export Claw-Sharpeners to the Barrow Dens before the Cataclysm.",
+        "name": "Swipe",
+        "text": "Deal $4 damage to an enemy and $1 damage to all other enemies."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "EX1_066",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Chris Rahn",
+        "flavor": "Once upon a time, the ooze in the art was wearing a tassled flamenco hat.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Acidic Swamp Ooze",
+        "text": "<b>Battlecry:</b> Destroy your opponent's weapon."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Drain Life",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "rarity": "FREE",
+        "artist": "Don Hazeltine",
+        "id": "CS2_061",
+        "playerClass": "WARLOCK",
+        "text": "Deal $2 damage. Restore 2 Health to your hero."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "CORE",
+        "name": "Totemic Might",
+        "rarity": "COMMON",
+        "artist": "Trent Kaniuga",
+        "id": "EX1_244",
+        "playerClass": "SHAMAN",
+        "text": "Give your Totems +2 Health."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_014",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "LEGENDARY",
+        "health": 5,
+        "artist": "Imaginary FS",
+        "text": "<b>Battlecry:</b> Give your opponent 2 Bananas.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "King Mukla",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Freezing Trap",
+        "rarity": "COMMON",
+        "artist": "Matt Gaser",
+        "id": "EX1_611",
+        "mechanics": [
+            "SECRET"
+        ],
+        "playerClass": "HUNTER",
+        "text": "<b>Secret:</b> When an enemy attacks, <b>Freeze</b> it this turn and next turn."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_028",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Alex Horley Orlandelli ",
+        "text": "<b>Stealth</b>",
+        "mechanics": [
+            "STEALTH"
+        ],
+        "name": "Jadefire Satyr",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_558",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "LEGENDARY",
+        "health": 4,
+        "artist": "Matt Dixon",
+        "flavor": "â€œThat belongs in the Hall of Explorers!â€",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Harrison Jones",
+        "text": "<b>Battlecry:</b> Destroy your opponent's weapon and draw cards equal to its Durability."
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Uther Lightbringer",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_04",
+        "playerClass": "PALADIN"
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_274",
+        "playerClass": "MAGE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Michael Komarck",
+        "name": "Ethereal Arcanist",
+        "text": "If you control a <b>Secret</b> at the end of your turn, gain +2/+2."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "id": "CS2_076",
+        "playerClass": "ROGUE",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Glenn Rane",
+        "flavor": "If you don't want to be assassinated, move to the Barrens and change your name. Good luck!",
+        "name": "Assassinate",
+        "text": "Destroy an enemy minion."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "CORE",
+        "id": "CS2_201",
+        "type": "MINION",
+        "attack": 9,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "E.M. Gist",
+        "flavor": "You donâ€™t tame a core hound. You just train it not to eat you.",
+        "name": "Core Hound",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "NEW1_018",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Jim Nelson",
+        "text": "<b>Battlecry:</b> Gain Attack equal to the Attack of your weapon.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Bloodsail Raider",
+        "race": "PIRATE"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "NEW1_027",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "EPIC",
+        "health": 3,
+        "artist": "Ken Steacy",
+        "text": "Your other Pirates have +1/+1.",
+        "name": "Southsea Captain",
+        "race": "PIRATE"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 6,
+        "set": "CORE",
+        "name": "Mind Vision",
+        "rarity": "COMMON",
+        "artist": "Michael Komarck",
+        "id": "CS2_003",
+        "playerClass": "PRIEST",
+        "text": "Take a random card from your opponent's hand."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "EX1_350",
+        "playerClass": "PRIEST",
+        "type": "MINION",
+        "attack": 7,
+        "rarity": "LEGENDARY",
+        "health": 7,
+        "artist": "Wei Wang",
+        "flavor": "He's been exiled from his home, and all his brothers turned evil, but otherwise he doesn't have a lot to complain about.",
+        "name": "Prophet Velen",
+        "text": "Double the damage and healing of your spells."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_021",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Efrem Palacios",
+        "mechanics": [
+            "WINDFURY"
+        ],
+        "name": "Thrallmar Farseer",
+        "text": "<b>Windfury</b>"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Noble Sacrifice",
+        "rarity": "COMMON",
+        "artist": "Zoltan & Gabor",
+        "id": "EX1_130",
+        "mechanics": [
+            "SECRET"
+        ],
+        "playerClass": "PALADIN",
+        "text": "<b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target."
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 20,
+        "set": "EXPERT1",
+        "attack": 10,
+        "rarity": "EPIC",
+        "health": 10,
+        "artist": "Glenn Rane",
+        "id": "EX1_620",
+        "name": "Molten Giant",
+        "text": "Costs (1) less for each damage your hero has taken."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_NUM_MINION_SLOTS": 1
+        },
+        "id": "CS2_027",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Jim Nelson",
+        "flavor": "Oh hey it's Mirror Image! !egamI rorriM s'ti yeh hO",
+        "name": "Mirror Image",
+        "text": "Summon two 0/1 minions with <b>Taunt</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_355",
+        "playerClass": "PALADIN",
+        "type": "SPELL",
+        "rarity": "RARE",
+        "artist": "Tyler Walpole",
+        "flavor": "This card causes double the trouble AND double the fun.",
+        "name": "Blessed Champion",
+        "text": "Double a minion's Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "CORE",
+        "id": "CS2_155",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 7,
+        "artist": "Steve Ellis",
+        "flavor": "Archmagi have access to a special room in Dalaran. Nobody knows what happens there, but it definitely is NOT a party, despite the shipments of D.I.S.C.O. balls.",
+        "mechanics": [
+            "SPELLPOWER"
+        ],
+        "name": "Archmage",
+        "text": "<b>Spell Power +1</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "NEW1_019",
+        "type": "MINION",
+        "textInPlay": "Juggler",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "Matt Cavotta",
+        "name": "Knife Juggler",
+        "text": "Whenever you play a minion, deal 1 damage to a random enemy."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Sinister Strike",
+        "rarity": "FREE",
+        "flavor": "There's something about this strike that just feels off.  Sinister, even.",
+        "artist": "Frank Cho",
+        "id": "CS2_075",
+        "playerClass": "ROGUE",
+        "text": "Deal $3 damage to the enemy hero."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_102",
+        "type": "MINION",
+        "textInPlay": "Catapult",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 4,
+        "artist": "Raymond Swanland",
+        "name": "Demolisher",
+        "text": "At the start of your turn, deal 2 damage to a random enemy."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_284",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 4,
+        "artist": "Ben Zhang",
+        "text": "<b>Spell Power +1</b>. <b>Battlecry:</b> Draw a card.",
+        "mechanics": [
+            "BATTLECRY",
+            "SPELLPOWER"
+        ],
+        "name": "Azure Drake",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_045",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "Richard Wright",
+        "flavor": "Why do its eyes seem to follow you as you walk by?",
+        "name": "Ancient Watcher",
+        "text": "Can't Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "EX1_178",
+        "playerClass": "DRUID",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "EPIC",
+        "health": 5,
+        "artist": "Sean Oâ€™Daniels",
+        "flavor": "Young Night Elves love to play \"Who can get the Ancient of War to Uproot?\"  You lose if you get crushed to death.",
+        "name": "Ancient of War",
+        "text": "<b>Choose One</b> - Ancient of War gets +5 Health and <b>Taunt</b>; or +5 Attack."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "CORE",
+        "name": "Divine Spirit",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "COMMON",
+        "artist": "Jim Pavelec",
+        "id": "CS2_236",
+        "playerClass": "PRIEST",
+        "text": "Double a minion's Health."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Return a minion to your hand.",
+        "cost": 4,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_FRIENDLY_TARGET": 0,
+            "REQ_NONSELF_TARGET": 0,
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_057",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Bernie Kang",
+        "flavor": "Most pandaren say his brew tastes like yak.  But apparently that's a compliment.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Ancient Brewmaster",
+        "text": "<b>Battlecry:</b> Return a friendly minion from the battlefield to your hand."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_391",
+        "playerClass": "WARRIOR",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "E.M. Gist",
+        "flavor": "\"Dun da dun, dun da dun\": if you've heard an ogre sing this, it's too late.",
+        "name": "Slam",
+        "text": "Deal $2 damage to a minion.  If it survives, draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_050",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Steve Prescott",
+        "text": "<b>Battlecry:</b> Each player draws 2 cards.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Coldlight Oracle",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "EX1_306",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "FREE",
+        "health": 3,
+        "artist": "Matt Dixon",
+        "text": "<b>Battlecry:</b> Discard a random card.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Succubus",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "CS1_069",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "COMMON",
+        "health": 6,
+        "artist": "Monica Langlois",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Fen Creeper",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 8,
+        "set": "CORE",
+        "id": "CS2_232",
+        "playerClass": "DRUID",
+        "type": "MINION",
+        "attack": 8,
+        "rarity": "COMMON",
+        "health": 8,
+        "artist": "Dave Allsop",
+        "flavor": "It's not always clear what they are protecting.",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Ironbark Protector",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_004",
+        "playerClass": "PRIEST",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Jessica Jung",
+        "flavor": "Sure the extra protection is nice, but the shield really reduces visibility.",
+        "name": "Power Word: Shield",
+        "text": "Give a minion +3 Health."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "NEW1_011",
+        "playerClass": "WARRIOR",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "The Kor'kron are the elite forces of Garrosh Hellscream. Let's just say you don't want to run into these guys while wearing a blue tabard.",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "name": "Kor'kron Elite",
+        "text": "<b>Charge</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_TARGET_WITH_RACE": 15
+        },
+        "id": "NEW1_003",
+        "playerClass": "WARLOCK",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Jim Nelson",
+        "flavor": "This is not really a book you want to leave on your coffee table.",
+        "name": "Grimoire of Sacrifice",
+        "text": "Destroy a Demon. Restore 5 Health to your hero."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_235",
+        "playerClass": "PRIEST",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "FREE",
+        "health": 3,
+        "artist": "Terese Nielsen",
+        "name": "Northshire Cleric",
+        "text": "Whenever a minion is healed, draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_509",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "RARE",
+        "health": 2,
+        "artist": "Jaemin Kim",
+        "text": "Whenever a Murloc is played, gain +1 Attack.",
+        "name": "Murloc Tidecaller",
+        "race": "MURLOC"
+    },
+    {
+        "collectible": true,
+        "cost": 9,
+        "set": "EXPERT1",
+        "id": "EX1_323",
+        "playerClass": "WARLOCK",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "LEGENDARY",
+        "health": 15,
+        "artist": "Alex Horley Orlandelli",
+        "text": "<b>Battlecry:</b> Destroy your hero and replace him with Lord Jaraxxus.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Lord Jaraxxus",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 8,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "EX1_279",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "EPIC",
+        "artist": "Luca Zontini",
+        "flavor": "Take the time for an evil laugh after you draw this card.",
+        "name": "Pyroblast",
+        "text": "Deal $9 damage."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "id": "EX1_277",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Warren Mahy",
+        "flavor": "You'd think you'd be able to control your missiles a little better since you're a powerful mage and all.",
+        "mechanics": [
+            "ImmuneToSpellpower"
+        ],
+        "name": "Arcane Missiles",
+        "text": "Shoot $3 missiles at random enemies for 1 damage each."
+    },
+    {
+        "collectible": true,
+        "type": "HERO",
+        "set": "CORE",
+        "name": "Valeera Sanguinar",
+        "rarity": "FREE",
+        "health": 30,
+        "id": "HERO_03",
+        "playerClass": "ROGUE"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "CS2_169",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 1,
+        "artist": "Greg Hildebrandt",
+        "text": "<b>Windfury</b>",
+        "mechanics": [
+            "WINDFURY"
+        ],
+        "name": "Young Dragonhawk",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "EX1_015",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "FREE",
+        "health": 2,
+        "artist": "Karl Richardson",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Novice Engineer",
+        "text": "<b>Battlecry:</b> Draw a card."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 4,
+        "set": "CORE",
+        "name": "Hellfire",
+        "rarity": "FREE",
+        "flavor": "It spells like these that make it hard for Warlocks to get decent help.",
+        "artist": "Brian 'Chippy' Dugan",
+        "id": "CS2_062",
+        "playerClass": "WARLOCK",
+        "text": "Deal $3 damage to ALL characters."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "id": "EX1_033",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 5,
+        "artist": "Luke \"Mr. Jack\" Mancini",
+        "mechanics": [
+            "WINDFURY"
+        ],
+        "name": "Windfury Harpy",
+        "text": "<b>Windfury</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 9,
+        "set": "EXPERT1",
+        "id": "EX1_562",
+        "type": "MINION",
+        "attack": 8,
+        "rarity": "LEGENDARY",
+        "health": 8,
+        "artist": "Dany Orizio",
+        "text": "Whenever you draw a card, deal 2 damage to ALL characters.",
+        "name": "Onyxia",
+        "race": "DRAGON"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "EXPERT1",
+        "name": "Flare",
+        "rarity": "RARE",
+        "artist": "Tyler Walpole",
+        "id": "EX1_544",
+        "playerClass": "HUNTER",
+        "text": "All minions lose <b>Stealth</b>. Destroy all enemy <b>Secrets</b>. Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "id": "NEW1_016",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "EPIC",
+        "health": 2,
+        "artist": "Daren Bader",
+        "flavor": "Pirates and Parrots go together like Virmen and Carrots.",
+        "text": "<b>Battlecry:</b> Put a random Pirate from your deck into your hand.",
+        "name": "Captain's Parrot",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "CORE",
+        "id": "CS2_213",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 5,
+        "rarity": "FREE",
+        "health": 2,
+        "artist": "John \"JP\" Polidora",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "name": "Reckless Rocketeer",
+        "text": "<b>Charge</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_007",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Dave Kendall",
+        "flavor": "\"That was uncomfortable...  Every time I landed a blow, he squeeled in delight.\"",
+        "name": "Acolyte of Pain",
+        "text": "Whenever this minion takes damage, draw a card."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Prayer of Fortitude",
+        "rarity": "COMMON",
+        "flavor": "Good idea: Buffing your minions.  Bad idea: Starting a conversation in the Barrens.",
+        "artist": "Ben Wootten",
+        "id": "CS1_129",
+        "playerClass": "PRIEST",
+        "text": "Give your minions +1/+1. <i>(+1 Attack/+1 Health)</i>"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "EXPERT1",
+        "id": "EX1_608",
+        "playerClass": "MAGE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "Apprentices are great for bossing around.  \"Conjure me some mana buns! And a coffee!  Make that a mana coffee!\"",
+        "name": "Sorcerer's Apprentice",
+        "text": "Your spells cost (1) less."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_116",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 6,
+        "rarity": "LEGENDARY",
+        "health": 2,
+        "artist": "Gabe from Penny Arcade",
+        "mechanics": [
+            "BATTLECRY",
+            "CHARGE"
+        ],
+        "name": "Leeroy Jenkins",
+        "text": "<b>Charge</b>. <b>Battlecry:</b> Summon two 1/1 Whelps for your opponent."
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "id": "EX1_100",
+        "type": "MINION",
+        "textInPlay": "Meditate",
+        "attack": 1,
+        "rarity": "LEGENDARY",
+        "health": 3,
+        "artist": "Mark Zug",
+        "name": "Lorewalker Cho",
+        "text": "Whenever a player casts a spell, put a copy into the other playerâ€™s hand."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "EX1_411",
+        "playerClass": "WARRIOR",
+        "type": "WEAPON",
+        "durability": 1,
+        "attack": 7,
+        "rarity": "EPIC",
+        "artist": "Zoltan & Gabor",
+        "flavor": "Grom Hellscream's famous axe.  Somehow this ended up in Prince Malchezaar's possession.  Quite the mystery!",
+        "name": "Gorehowl",
+        "text": "Attacking a minion costs 1 Attack instead of 1 Durability."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_022",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Vance Kovacs",
+        "flavor": "Apprentice Mages are wonderful at turning orcs to sheep, but the real master, well the real master turns sheep to ice cream.",
+        "name": "Polymorph",
+        "text": "Transform a minion into a 1/1 Sheep."
+    },
+    {
+        "collectible": true,
+        "targetingArrowText": "Give +2 Attack.",
+        "cost": 4,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_IF_AVAILABLE": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "EX1_046",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Scott Hampton",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Dark Iron Dwarf",
+        "text": "<b>Battlecry:</b> Give a minion +2 Attack."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "CORE",
+        "id": "CS2_147",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 4,
+        "artist": "Court Jones",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Gnomish Inventor",
+        "text": "<b>Battlecry:</b> Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "id": "CS2_196",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Clint Langley",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Razorfen Hunter",
+        "text": "<b>Battlecry:</b> Summon a 1/1 Boar."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Shield Block",
+        "rarity": "COMMON",
+        "artist": "Michael Komarck",
+        "id": "EX1_606",
+        "playerClass": "WARRIOR",
+        "text": "Gain 5 Armor.  Draw a card."
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "id": "EX1_067",
+        "type": "MINION",
+        "attack": 4,
+        "rarity": "RARE",
+        "health": 3,
+        "artist": "James Ryman",
+        "mechanics": [
+            "CHARGE",
+            "DIVINE_SHIELD"
+        ],
+        "name": "Argent Commander",
+        "text": "<b>Charge</b>. <b>Divine Shield</b>"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Tracking",
+        "rarity": "FREE",
+        "flavor": "\"Wait, those are footprints.\" - Vladimir Firebeard \"Aye, but do ye really want to be findin' what ever left 'em?\" - Baxter Anvilbrace",
+        "artist": "Mauro Cascioli",
+        "id": "DS1_184",
+        "playerClass": "HUNTER",
+        "text": "Look at the top three cards of your deck. Draw one and discard the others."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "EX1_559",
+        "playerClass": "MAGE",
+        "type": "MINION",
+        "textInPlay": "Grand Magus",
+        "attack": 5,
+        "rarity": "LEGENDARY",
+        "health": 7,
+        "artist": "Wayne Reynolds",
+        "flavor": "Antonidas was the Grand Magus of the Kirin Tor, and Jaina's mentor.  This was a big step up from being Grand Magus of Jelly Donuts.",
+        "name": "Archmage Antonidas",
+        "text": "Whenever you cast a spell, put a 'Fireball' spell into your hand."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "id": "CS2_039",
+        "playerClass": "SHAMAN",
+        "type": "SPELL",
+        "rarity": "FREE",
+        "artist": "Justin Sweet",
+        "flavor": "Just don't expect him to give it back to you.",
+        "mechanics": [
+            "WINDFURY"
+        ],
+        "name": "Windfury",
+        "text": "Give a minion <b>Windfury</b>."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Power of the Wild",
+        "rarity": "COMMON",
+        "flavor": "Never look a panther in the eye.  Or is it 'Always look a panther in the eye'?  Well, its one of those.",
+        "artist": "Steve Tappin",
+        "id": "EX1_160",
+        "playerClass": "DRUID",
+        "text": "<b>Choose One</b> - Give your minions +1/+1; or Summon a 3/2 Panther."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_166",
+        "playerClass": "DRUID",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 4,
+        "artist": "Gabor Szikszai",
+        "flavor": "These guys just show up and start Keeping your Groves without even asking.",
+        "name": "Keeper of the Grove",
+        "text": "<b>Choose One</b> - Deal 2 damage; or <b>Silence</b> a minion."
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "EXPERT1",
+        "id": "EX1_390",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "COMMON",
+        "health": 3,
+        "artist": "Paul Warzecha",
+        "mechanics": [
+            "ENRAGED",
+            "TAUNT"
+        ],
+        "name": "Tauren Warrior",
+        "text": "<b>Taunt</b>. <b>Enrage:</b> +3 Attack"
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "entourage": [
+            "EX1_306",
+            "CS2_065",
+            "EX1_319",
+            "EX1_301",
+            "CS2_059",
+            "CS2_064"
+        ],
+        "id": "EX1_320",
+        "playerClass": "WARLOCK",
+        "type": "SPELL",
+        "rarity": "EPIC",
+        "artist": "Raymond Swanland",
+        "name": "Bane of Doom",
+        "text": "Deal $2 damage to a character.  If that kills it, summon a random Demon."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "EX1_567",
+        "playerClass": "SHAMAN",
+        "type": "WEAPON",
+        "durability": 8,
+        "attack": 2,
+        "rarity": "EPIC",
+        "artist": "John \"JP\" Polidora",
+        "mechanics": [
+            "OVERLOAD",
+            "WINDFURY"
+        ],
+        "name": "Doomhammer",
+        "text": "<b>Windfury, Overload:</b> (2)"
+    },
+    {
+        "collectible": true,
+        "cost": 3,
+        "set": "CORE",
+        "playRequirements": {
+            "REQ_NUM_MINION_SLOTS": 1
+        },
+        "entourage": [
+            "NEW1_032",
+            "NEW1_033",
+            "NEW1_034"
+        ],
+        "id": "NEW1_031",
+        "playerClass": "HUNTER",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Samwise Didier",
+        "flavor": "You could summon Misha, Leokk, or Huffer!  Huffer is more trouble than he's worth.",
+        "name": "Animal Companion",
+        "text": "Summon a random Beast Companion."
+    },
+    {
+        "collectible": true,
+        "cost": 7,
+        "set": "EXPERT1",
+        "id": "EX1_614",
+        "type": "MINION",
+        "attack": 7,
+        "rarity": "LEGENDARY",
+        "health": 7,
+        "artist": "Alex Horley Orlandelli",
+        "text": "<b>Battlecry:</b> Both players discard 3 cards and draw 3 cards.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Illidan Stormrage",
+        "race": "DEMON"
+    },
+    {
+        "collectible": true,
+        "cost": 6,
+        "set": "EXPERT1",
+        "id": "EX1_577",
+        "type": "MINION",
+        "attack": 10,
+        "rarity": "LEGENDARY",
+        "health": 6,
+        "artist": "Glenn Rane",
+        "text": "<b>Deathrattle:</b> Summon a 3/3 Finkle Einhorn for your opponent.",
+        "mechanics": [
+            "DEATHRATTLE"
+        ],
+        "name": "The Beast",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 2,
+        "set": "EXPERT1",
+        "name": "Explosive Trap",
+        "rarity": "COMMON",
+        "artist": "Brandon Kitkouski",
+        "id": "EX1_610",
+        "mechanics": [
+            "SECRET"
+        ],
+        "playerClass": "HUNTER",
+        "text": "<b>Secret:</b> When a minion damages your hero, deal 2 damage to all enemies."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 0,
+        "set": "EXPERT1",
+        "name": "Circle of Healing",
+        "rarity": "COMMON",
+        "flavor": "It isn't really a circle.",
+        "artist": "Mike 'Daarken' Lim",
+        "id": "EX1_621",
+        "playerClass": "PRIEST",
+        "text": "Restore 4 Health to ALL minions."
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_172",
+        "faction": "HORDE",
+        "type": "MINION",
+        "attack": 3,
+        "rarity": "FREE",
+        "health": 2,
+        "artist": "Dan Brereton",
+        "flavor": "\"Kill 30 raptors.\" - Hemet Nesingwary",
+        "name": "Bloodfen Raptor",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 2,
+        "set": "CORE",
+        "id": "CS2_106",
+        "playerClass": "WARRIOR",
+        "type": "WEAPON",
+        "durability": 2,
+        "attack": 3,
+        "rarity": "FREE",
+        "artist": "Lucas Graciano",
+        "flavor": "During times of tranquility and harmony, this weapon was called by its less popular name, Chilly Peace Axe. ",
+        "name": "Fiery War Axe"
+    },
+    {
+        "collectible": true,
+        "type": "MINION",
+        "cost": 12,
+        "set": "EXPERT1",
+        "attack": 10,
+        "rarity": "EPIC",
+        "health": 10,
+        "artist": "Samwise Didier",
+        "id": "EX1_105",
+        "name": "Mountain Giant",
+        "text": "Costs (1) less for each other card in your hand."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Hex",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "FREE",
+        "artist": "Steve Hui",
+        "id": "EX1_246",
+        "playerClass": "SHAMAN",
+        "text": "Transform a minion into a 0/1 Frog with <B>Taunt</B>."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Execute",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_DAMAGED_TARGET": 0,
+            "REQ_MINION_TARGET": 0,
+            "REQ_ENEMY_TARGET": 0
+        },
+        "rarity": "FREE",
+        "artist": "Dany Orizio",
+        "id": "CS2_108",
+        "playerClass": "WARRIOR",
+        "text": "Destroy a damaged enemy minion."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 1,
+        "set": "CORE",
+        "name": "Whirlwind",
+        "rarity": "COMMON",
+        "flavor": "The way to tell seasoned warriors from novice ones: the novices yell \"wheeeee\" while whirlwinding.",
+        "artist": "Jonboy Meyers",
+        "id": "EX1_400",
+        "playerClass": "WARRIOR",
+        "text": "Deal $1 damage to ALL minions."
+    },
+    {
+        "collectible": true,
+        "cost": 4,
+        "set": "EXPERT1",
+        "id": "EX1_584",
+        "type": "MINION",
+        "attack": 2,
+        "rarity": "RARE",
+        "health": 5,
+        "artist": "Howard Lyon",
+        "flavor": "Sometimes he forgets and just wanders into someone else's game.",
+        "mechanics": [
+            "BATTLECRY"
+        ],
+        "name": "Ancient Mage",
+        "text": "<b>Battlecry:</b> Give adjacent minions <b>Spell Power +1</b>."
+    },
+    {
+        "collectible": true,
+        "cost": 5,
+        "set": "EXPERT1",
+        "id": "CS2_227",
+        "faction": "HORDE",
+        "type": "MINION",
+        "textInPlay": "Power",
+        "attack": 7,
+        "rarity": "COMMON",
+        "health": 6,
+        "artist": "John \"JP\" Polidora",
+        "flavor": "This card would disenchant itself if it could pocket the Arcane Dust.  Those goblins love currency!",
+        "name": "Venture Co. Mercenary",
+        "text": "Your minions cost (3) more."
+    },
+    {
+        "collectible": true,
+        "cost": 9,
+        "set": "EXPERT1",
+        "id": "EX1_543",
+        "playerClass": "HUNTER",
+        "type": "MINION",
+        "attack": 8,
+        "rarity": "LEGENDARY",
+        "health": 8,
+        "artist": "Alex Horley Orlandelli",
+        "text": "<b>Charge</b>",
+        "mechanics": [
+            "CHARGE"
+        ],
+        "name": "King Krush",
+        "race": "BEAST"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "CORE",
+        "id": "CS1_042",
+        "faction": "ALLIANCE",
+        "type": "MINION",
+        "attack": 1,
+        "rarity": "COMMON",
+        "health": 2,
+        "artist": "Donato Giancola",
+        "mechanics": [
+            "TAUNT"
+        ],
+        "name": "Goldshire Footman",
+        "text": "<b>Taunt</b>"
+    },
+    {
+        "collectible": true,
+        "cost": 1,
+        "set": "EXPERT1",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0
+        },
+        "id": "CS2_031",
+        "playerClass": "MAGE",
+        "type": "SPELL",
+        "rarity": "COMMON",
+        "artist": "Alex Horley Orlandelli",
+        "flavor": "The trick is not to break the lance.  Otherwise, you have \"Ice Pieces\".  Ice Pieces aren't as effective.",
+        "mechanics": [
+            "FREEZE"
+        ],
+        "name": "Ice Lance",
+        "text": "<b>Freeze</b> a character. If it was already <b>Frozen</b>, deal $4 damage instead."
+    },
+    {
+        "collectible": true,
+        "type": "SPELL",
+        "cost": 3,
+        "set": "CORE",
+        "name": "Shadow Bolt",
+        "playRequirements": {
+            "REQ_TARGET_TO_PLAY": 0,
+            "REQ_MINION_TARGET": 0
+        },
+        "rarity": "FREE",
+        "artist": "Dave Allsop",
+        "id": "CS2_057",
+        "playerClass": "WARLOCK",
+        "text": "Deal $4 damage to a minion."
+    }
+]

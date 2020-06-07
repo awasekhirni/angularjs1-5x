@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Angular Car Hire</title>
+        <link rel="stylesheet" href="style.css">  
+    </head>
+    <body data-ng-controller="CarHireController">
+	
+	<section id="car-hire-results">
+
+        <article data-ng-repeat="result in results | filter:search" class="result">
+					<header><h3>{{result.carType.name}}, {{result.carDetails.doors}} door, &pound;{{result.price.value}} - {{ result.company.name }}</h3></header>
+					<ul class="result-features">
+						<li>{{result.carDetails.hireDuration}} day hire</li>
+						<li data-ng-show="result.carDetails.airCon">Air conditioning</li>
+						<li data-ng-show="result.carDetails.unlimitedMileage">Unlimited Mileage</li>
+						<li data-ng-show="result.carDetails.theftProtection">Theft Protection</li>
+					</ul>
+				</article>
+	
+				<p data-ng-show="(results | filter:search).length==0">There are no results for this search</p>
+	
+	</section>
+	
+	<section id="filters">
+		<h2>Filters</h2>
+		
+  	<fieldset>
+		Doors: 
+		<select data-ng-model="search.carDetails">
+			<option value="">All</option>
+			<option value="2">2</option>
+			<option value="4">4</option>
+			<option value="9">9</option>
+		</select>	
+		
+		<br><br>
+		
+		Car type:<br>
+		Intermediate <input type="checkbox"  data-ng-model="search.carType" data-ng-change="filterCarType()"  ng-true-value="Intermediate" ng-false-value="" /><br>
+		Premium <input type="checkbox"  data-ng-model="search.carType" data-ng-change="filterCarType()"  ng-true-value="Premium" ng-false-value="" /><br>
+		
+		<br><br>
+		
+		Provider:<br>
+		Atlas Choice <input type="radio"  data-ng-model="search.$" data-ng-change="filterCarType()"  value="Atlas Choice" /><br>
+		Holiday Autos <input type="radio"  data-ng-model="search.$" data-ng-change="filterCarType()"  value="Holiday Autos" /><br>	
+        Avis <input type="radio"  data-ng-model="search.$" data-ng-change="filterCarType()"  value="Avis" /><br>  
+		None <input type="radio"  data-ng-model="search.$" data-ng-change="filterCarType()"  value="" /><br>  
+	</fieldset>
+	
+	</section>
+
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <script src="CarHireController.js"></script>	
+    </body>
+</html>
